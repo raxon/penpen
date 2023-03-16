@@ -1,4 +1,4 @@
-👋 Welcome to "Mastodon" in GitHub Codespaces!
+👋 Welcome to "penpen" in GitHub Codespaces!
 
 🛠️  Your environment is fully setup with all the required software.
 

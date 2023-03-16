@@ -53,7 +53,7 @@ class ScrollableList extends PureComponent {
 
   state = {
     fullscreen: null,
-    cachedMediaWidth: 250, // Default media/card width using default Mastodon theme
+    cachedMediaWidth: 250, // Default media/card width using default penpen theme
   };
 
   intersectionObserverWrapper = new IntersectionObserverWrapper();

@@ -446,7 +446,7 @@ kab:
     change_password: Awal uffir
     delete_account: Kkes amiḍan
     description:
-      prefix_invited_by_user: "@%{name} inced-ik·ikem ad ternuḍ ɣer uqeddac-a n Mastodon!"
+      prefix_invited_by_user: "@%{name} inced-ik·ikem ad ternuḍ ɣer uqeddac-a n penpen!"
       prefix_sign_up: Zeddi di Maṣṭudun assa!
     forgot_password: Tettud awal-ik uffir?
     log_in_with: Qqen s

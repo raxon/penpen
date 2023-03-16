@@ -1,7 +1,7 @@
 ---
 hr:
   about:
-    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću Mastodona!'
+    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću penpena!'
     contact_missing: Nije postavljeno
   accounts:
     follow: Prati
@@ -176,7 +176,7 @@ hr:
     aliases: Pseudonimi računa
     appearance: Izgled
     authorized_apps: Autorizirane aplikacije
-    back: Natrag na Mastodon
+    back: Natrag na penpen
     delete: Brisanje računa
     development: Razvijanje
     edit_profile: Uredi profil
@@ -220,7 +220,7 @@ hr:
         suspend: Račun je suspendiran
     welcome:
       edit_profile_action: Postavi profil
-      subject: Dobro došli na Mastodon
+      subject: Dobro došli na penpen
   users:
     invalid_otp_token: Nevažeći dvo-faktorski kôd
     signed_in_as: 'Prijavljeni kao:'

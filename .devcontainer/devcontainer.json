@@ -1,6 +1,6 @@
 // For more details, see https://aka.ms/devcontainer.json.
 {
-  "name": "Mastodon",
+  "name": "penpen",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",

@@ -1,9 +1,9 @@
 ---
 sr-Latn:
   about:
-    about_mastodon_html: Mastodont je društvena mreža bazirana na otvorenim protokolima i slobodnom softveru otvorenog koda. Decentralizovana je kao što je decentralizovana e-pošta.
+    about_mastodon_html: penpent je društvena mreža bazirana na otvorenim protokolima i slobodnom softveru otvorenog koda. Decentralizovana je kao što je decentralizovana e-pošta.
     contact_missing: Nije postavljeno
-    hosted_on: Mastodont hostovan na %{domain}
+    hosted_on: penpent hostovan na %{domain}
   accounts:
     nothing_here: Ovde nema ništa!
   admin:
@@ -214,7 +214,7 @@ sr-Latn:
       content: Izvinjavamo se, nešto je pošlo po zlu sa ove strane.
       title: Strana nije ispravna
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Da biste koristili Mastodont veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za Mastodont za Vašu platformu.
+    noscript_html: Da biste koristili penpent veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za penpent za Vašu platformu.
   exports:
     blocks: Blokirali ste
     mutes: Ućutkali ste
@@ -293,7 +293,7 @@ sr-Latn:
       generic: Nepoznati veb čitač
     current_session: Trenutna sesija
     description: "%{browser} sa %{platform}"
-    explanation: Ovo su trenutno prijavljeni veb čitači na Vaš Mastodont nalog.
+    explanation: Ovo su trenutno prijavljeni veb čitači na Vaš penpent nalog.
     platforms:
       adobe_air: Adobe Air-a
       android: Androida
@@ -309,7 +309,7 @@ sr-Latn:
     title: Sesije
   settings:
     authorized_apps: Autorizovane aplikacije
-    back: Nazad na Mastodonta
+    back: Nazad na penpenta
     delete: Brisanje naloga
     development: Razvoj
     edit_profile: Izmena profila
@@ -339,7 +339,7 @@ sr-Latn:
     reblogged: podržano
     sensitive_content: Osetljiv sadržaj
   themes:
-    default: Mastodont
+    default: penpent
   two_factor_authentication:
     disable: Isključi
     enabled: Dvofaktorska identifikacija je uključena

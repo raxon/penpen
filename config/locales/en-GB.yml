@@ -1,10 +1,10 @@
 ---
 en-GB:
   about:
-    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralisation! Own your data with Mastodon!'
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralisation! Own your data with penpen!'
     contact_missing: Not set
     contact_unavailable: N/A
-    hosted_on: Mastodon hosted on %{domain}
+    hosted_on: penpen hosted on %{domain}
     title: About
   accounts:
     follow: Follow
@@ -400,7 +400,7 @@ en-GB:
     errors:
       too_late: It is too late to appeal this strike
   themes:
-    mastodon-light: Mastodon (Light)
+    mastodon-light: penpen (Light)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -432,7 +432,7 @@ en-GB:
       subject: Your appeal from %{date} has been rejected
       title: Appeal rejected
     backup_ready:
-      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      explanation: You requested a full backup of your penpen account. It's now ready for download!
     suspicious_sign_in:
       title: A new sign-in
     warning:
@@ -474,7 +474,7 @@ en-GB:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: Your full handle
       full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
-      subject: Welcome to Mastodon
+      subject: Welcome to penpen
       title: Welcome aboard, %{name}!
   users:
     follow_limit_reached: You cannot follow more than %{limit} people
@@ -483,7 +483,7 @@ en-GB:
     seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
     signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your penpen profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verification
   webauthn_credentials:
     add: Add new security key

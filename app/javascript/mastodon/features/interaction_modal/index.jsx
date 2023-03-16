@@ -99,22 +99,22 @@ class InteractionModal extends React.PureComponent {
     case 'reply':
       icon = <Icon id='reply' />;
       title = <FormattedMessage id='interaction_modal.title.reply' defaultMessage="Reply to {name}'s post" values={{ name }} />;
-      actionDescription = <FormattedMessage id='interaction_modal.description.reply' defaultMessage='With an account on Mastodon, you can respond to this post.' />;
+      actionDescription = <FormattedMessage id='interaction_modal.description.reply' defaultMessage='With an account on penpen, you can respond to this post.' />;
       break;
     case 'reblog':
       icon = <Icon id='retweet' />;
       title = <FormattedMessage id='interaction_modal.title.reblog' defaultMessage="Boost {name}'s post" values={{ name }} />;
-      actionDescription = <FormattedMessage id='interaction_modal.description.reblog' defaultMessage='With an account on Mastodon, you can boost this post to share it with your own followers.' />;
+      actionDescription = <FormattedMessage id='interaction_modal.description.reblog' defaultMessage='With an account on penpen, you can boost this post to share it with your own followers.' />;
       break;
     case 'favourite':
       icon = <Icon id='star' />;
       title = <FormattedMessage id='interaction_modal.title.favourite' defaultMessage="Favourite {name}'s post" values={{ name }} />;
-      actionDescription = <FormattedMessage id='interaction_modal.description.favourite' defaultMessage='With an account on Mastodon, you can favourite this post to let the author know you appreciate it and save it for later.' />;
+      actionDescription = <FormattedMessage id='interaction_modal.description.favourite' defaultMessage='With an account on penpen, you can favourite this post to let the author know you appreciate it and save it for later.' />;
       break;
     case 'follow':
       icon = <Icon id='user-plus' />;
       title = <FormattedMessage id='interaction_modal.title.follow' defaultMessage='Follow {name}' values={{ name }} />;
-      actionDescription = <FormattedMessage id='interaction_modal.description.follow' defaultMessage='With an account on Mastodon, you can follow {name} to receive their posts in your home feed.' values={{ name }} />;
+      actionDescription = <FormattedMessage id='interaction_modal.description.follow' defaultMessage='With an account on penpen, you can follow {name} to receive their posts in your home feed.' values={{ name }} />;
       break;
     }
 
@@ -138,7 +138,7 @@ class InteractionModal extends React.PureComponent {
       <div className='modal-root__modal interaction-modal'>
         <div className='interaction-modal__lead'>
           <h3><span className='interaction-modal__icon'>{icon}</span> {title}</h3>
-          <p>{actionDescription} <FormattedMessage id='interaction_modal.preamble' defaultMessage="Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or compatible platform if you don't have an account on this one." /></p>
+          <p>{actionDescription} <FormattedMessage id='interaction_modal.preamble' defaultMessage="Since penpen is decentralized, you can use your existing account hosted by another penpen server or compatible platform if you don't have an account on this one." /></p>
         </div>
 
         <div className='interaction-modal__choices'>
@@ -150,7 +150,7 @@ class InteractionModal extends React.PureComponent {
 
           <div className='interaction-modal__choices__choice'>
             <h3><FormattedMessage id='interaction_modal.on_another_server' defaultMessage='On a different server' /></h3>
-            <p><FormattedMessage id='interaction_modal.other_server_instructions' defaultMessage='Copy and paste this URL into the search field of your favourite Mastodon app or the web interface of your Mastodon server.' /></p>
+            <p><FormattedMessage id='interaction_modal.other_server_instructions' defaultMessage='Copy and paste this URL into the search field of your favourite penpen app or the web interface of your penpen server.' /></p>
             <Copypaste value={url} />
           </div>
         </div>

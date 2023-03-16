@@ -1,9 +1,9 @@
 ---
 ast:
   about:
-    about_mastodon_html: 'La rede social del futuru: ¡ensin anuncios nin vixilancia, con un diseñu éticu ya descentralizáu! Controla los tos datos con Mastodon.'
+    about_mastodon_html: 'La rede social del futuru: ¡ensin anuncios nin vixilancia, con un diseñu éticu ya descentralizáu! Controla los tos datos con penpen.'
     contact_unavailable: N/D
-    hosted_on: 'Mastodon ta agospiáu en: %{domain}'
+    hosted_on: 'penpen ta agospiáu en: %{domain}'
     title: Tocante a
   accounts:
     last_active: última actividá
@@ -308,17 +308,17 @@ ast:
         manage_rules: Xestionar les normes del sirvidor
         title: Tocante a
       appearance:
-        preamble: Personaliza la interfaz web de Mastodon.
+        preamble: Personaliza la interfaz web de penpen.
         title: Aspeutu
       branding:
-        preamble: La marca del to sirvidor estrémalu d'otros sirvidores de la rede. Ye posible qu'esta información apaeza nuna variedá d'entornos, como la interfaz web de Mastodon, les aplicaciones natives, nes previsualizaciones de los enllaces d'otros sitios web, dientro de les aplicaciones de mensaxería, etc. Por esti motivu, lo meyor ye qu'esta información seya clara, curtia ya concisa.
+        preamble: La marca del to sirvidor estrémalu d'otros sirvidores de la rede. Ye posible qu'esta información apaeza nuna variedá d'entornos, como la interfaz web de penpen, les aplicaciones natives, nes previsualizaciones de los enllaces d'otros sitios web, dientro de les aplicaciones de mensaxería, etc. Por esti motivu, lo meyor ye qu'esta información seya clara, curtia ya concisa.
         title: Marca
       content_retention:
-        preamble: Controla cómo s'atroxa'l conteníu xeneráu polos perfiles en Mastodon.
+        preamble: Controla cómo s'atroxa'l conteníu xeneráu polos perfiles en penpen.
         title: Retención del conteníu
       discovery:
         follow_recommendations: Recomendación de cuentes
-        preamble: L'apaición de conteníu interesante ye fundamental p'atrayer persones nueves que nun conozan nada de Mastodon. Controla'l funcionamientu de delles funciones de descubrimientu d'esti sirvidor.
+        preamble: L'apaición de conteníu interesante ye fundamental p'atrayer persones nueves que nun conozan nada de penpen. Controla'l funcionamientu de delles funciones de descubrimientu d'esti sirvidor.
         profile_directory: Direutoriu de perfiles
         public_timelines: Llinies de tiempu públiques
         publish_discovered_servers: Espublizamientu de sirvidores descubiertos
@@ -396,7 +396,7 @@ ast:
     webhooks:
       add_new: Amestar un estremu
       delete: Desaniciar
-      description_html: Un <strong>webhook</strong> permite a Mastodon unviar <strong>avisos en tiempu real</strong> de los eventos escoyíos sobre la to aplicación pa qu'esta pueda <strong>executar aiciones automáticamente</strong>.
+      description_html: Un <strong>webhook</strong> permite a penpen unviar <strong>avisos en tiempu real</strong> de los eventos escoyíos sobre la to aplicación pa qu'esta pueda <strong>executar aiciones automáticamente</strong>.
       disable: Desactivar
       disabled: Desactivóse
       edit: Editar l'estremu
@@ -436,7 +436,7 @@ ast:
     confirmation_dialogs: Diálogos de confirmación
     discovery: Descubrimientu
     localization:
-      body: Mastodon tradúcenlu voluntarios,
+      body: penpen tradúcenlu voluntarios,
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: tol mundu pue collaborar.
     sensitive_content: Conteníu sensible
@@ -457,7 +457,7 @@ ast:
     delete_account: Desaniciu de la cuenta
     delete_account_html: Si quies desaniciar la cuenta, pues facelo <a href="%{path}">equí</a>. Va pidísete que confirmes l'aición.
     description:
-      prefix_sign_up: "¡Rexístrate güei en Mastodon!"
+      prefix_sign_up: "¡Rexístrate güei en penpen!"
     didnt_get_confirmation: "¿Nun recibiesti les instrucciones de confirmación?"
     dont_have_your_security_key: "¿Nun tienes una llave de seguranza?"
     forgot_password: "¿Escaeciesti la contraseña?"
@@ -484,7 +484,7 @@ ast:
       preamble_html: Anicia la sesión colos tos datos d'accesu en <strong>%{domain}</strong>. Si la cuenta ta agospiada n'otru sirvidor, nun vas ser a aniciar la sesión equí.
       title: Aniciu de la sesión en «%{domain}»
     sign_up:
-      preamble: Con una cuenta nesti sirvidor de Mastodon vas ser a siguir a cualesquier perfil de la rede, independientemente del sirvidor onde s'agospie la so cuenta.
+      preamble: Con una cuenta nesti sirvidor de penpen vas ser a siguir a cualesquier perfil de la rede, independientemente del sirvidor onde s'agospie la so cuenta.
       title: 'Creación d''una cuenta en: %{domain}.'
     status:
       account_status: Estáu de la cuenta
@@ -561,7 +561,7 @@ ast:
       content: Sentímoslo, mas prodúxose dalgún error nel sirvidor.
       title: La páxina nun ye correuta
     '503': Nun se pudo sirvir la páxina pola mor d'un fallu temporal del sirvidor.
-    noscript_html: Pa usar l'aplicación web de Mastodon, activa JavaScript. Tamién pues probar una de les <a href="%{apps_path}">aplicaciones natives</a> de Mastodon pa la to plataforma.
+    noscript_html: Pa usar l'aplicación web de penpen, activa JavaScript. Tamién pues probar una de les <a href="%{apps_path}">aplicaciones natives</a> de penpen pa la to plataforma.
   exports:
     archive_takeout:
       date: Data
@@ -783,7 +783,7 @@ ast:
     account_settings: Configuración de la cuenta
     appearance: Aspeutu
     authorized_apps: Aplicaciones autorizaes
-    back: Volver a Mastodon
+    back: Volver a penpen
     development: Desendolcu
     edit_profile: Edición del perfil
     export: Esportación de datos
@@ -860,9 +860,9 @@ ast:
   tags:
     does_not_match_previous_name: nun concasa col nome anterior
   themes:
-    contrast: Mastodon (contraste altu)
-    default: Mastodon (escuridá)
-    mastodon-light: Mastodon (claridá)
+    contrast: penpen (contraste altu)
+    default: penpen (escuridá)
+    mastodon-light: penpen (claridá)
   two_factor_authentication:
     enabled: L'autenticación en dos pasos ta activada
     enabled_success: L'autenticación en dos pasos activóse correutamente
@@ -894,7 +894,7 @@ ast:
       edit_profile_step: Pues personalizar el perfil pente la xuba d'una semeya, el cambéu del nome visible ya muncho más. Tamién, si lo prefieres, pues revisar los perfiles nuevos enantes de que puedan siguite.
       explanation: Equí tienes dalgunos conseyos pa que comiences
       final_action: Comenzar a espublizar
-      subject: Afáyate en Mastodon
+      subject: Afáyate en penpen
       title: "¡Afáyate, %{name}!"
   users:
     follow_limit_reached: Nun pues siguir a más de %{limit} persones
@@ -902,7 +902,7 @@ ast:
     seamless_external_login: Aniciesti la sesión pente un serviciu esternu, polo que la configuración de la contraseña ya de la direición de corréu electrónicu nun tán disponibles.
     signed_in_as: 'Aniciesti la sesión como:'
   verification:
-    explanation_html: 'Pues <strong>verificate como la persona propietaria de los enllaces nos metadatos del to perfil</strong>. Pa ello, el sitiu web enllaciáu ha contener un enllaz al to perfil de Mastodon. Esti enllaz <strong>ha</strong> tener l''atributu <code>rel="me"</code>. El testu del enllaz nun importa. Equí tienes un exemplu:'
+    explanation_html: 'Pues <strong>verificate como la persona propietaria de los enllaces nos metadatos del to perfil</strong>. Pa ello, el sitiu web enllaciáu ha contener un enllaz al to perfil de penpen. Esti enllaz <strong>ha</strong> tener l''atributu <code>rel="me"</code>. El testu del enllaz nun importa. Equí tienes un exemplu:'
     verification: Verificación
   webauthn_credentials:
     create:

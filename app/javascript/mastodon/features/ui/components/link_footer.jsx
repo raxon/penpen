@@ -83,7 +83,7 @@ class LinkFooter extends React.PureComponent {
         </p>
 
         <p>
-          <strong>Mastodon</strong>:
+          <strong>penpen</strong>:
           {' '}
           <a href='https://joinmastodon.org' target='_blank'><FormattedMessage id='footer.about' defaultMessage='About' /></a>
           {DividingCircle}

@@ -394,7 +394,7 @@ sr:
     confirmation_dialogs: Дијалози потврде
     discovery: Откривање
     localization:
-      body: Mastodon преводе добровољци.
+      body: penpen преводе добровољци.
       guide_link_text: Свако може допринети.
     sensitive_content: Осетљив садржај
     toot_layout: Распоред објава

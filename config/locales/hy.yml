@@ -835,9 +835,9 @@ hy:
     reblogged: տարածուած
     sensitive_content: Կասկածելի բովանդակութիւն
   themes:
-    contrast: Mastodon (բարձր կոնտրաստով)
-    default: Mastodon (Մուգ)
-    mastodon-light: Mastodon (Լուսավոր)
+    contrast: penpen (բարձր կոնտրաստով)
+    default: penpen (Մուգ)
+    mastodon-light: penpen (Լուսավոր)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
