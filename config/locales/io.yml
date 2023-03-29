@@ -1,10 +1,10 @@
 ---
 io:
   about:
-    about_mastodon_html: penpen esas <em>gratuita, apertitkodexa</em> sociala reto. Ol esas <em>sencentra</em> altra alternativo a komercala servadi. Ol evitigas, ke sola firmo guvernez tua tota komunikadol. Selektez servero, quan tu fidas. Irge qua esas tua selekto, tu povas komunikar kun omna altra uzeri. Irgu povas krear sua propra instaluro di penpen en sua servero, e partoprenar en la <em>sociala reto</em> tote glate.
+    about_Penpen_html: Penpen esas <em>gratuita, apertitkodexa</em> sociala reto. Ol esas <em>sencentra</em> altra alternativo a komercala servadi. Ol evitigas, ke sola firmo guvernez tua tota komunikadol. Selektez servero, quan tu fidas. Irge qua esas tua selekto, tu povas komunikar kun omna altra uzeri. Irgu povas krear sua propra instaluro di Penpen en sua servero, e partoprenar en la <em>sociala reto</em> tote glate.
     contact_missing: Ne fixigita
     contact_unavailable: Nula
-    hosted_on: penpen hostigesas che %{domain}
+    hosted_on: Penpen hostigesas che %{domain}
     title: Pri co
   accounts:
     follow: Sequar
@@ -370,8 +370,6 @@ io:
       add_new: Permisez federato kun domeno
       created_msg: Domeno sucesoza permisesas por federato
       destroyed_msg: Domeno despermisesas de federato
-      export: Exportez
-      import: Importez
       undo: Despermisez federato kun domeno
     domain_blocks:
       add_new: Add new
@@ -381,18 +379,15 @@ io:
       edit: Modifikez domenobstrukto
       existing_domain_block: Vu ja exekutis plu rigoroza limiti a %{name}.
       existing_domain_block_html: Vu ja povis plu rigoroza limiti a %{name}, vu bezonas <a href="%{unblock_url}">deobstruktar</a> unesme.
-      export: Exportez
-      import: Importez
       new:
         create: Kreez obstrukto
         hint: Domenobstrukto ne preventos kreo di kontrekordaji en datumaturo, ma retroaktive e automate aplikos partikulara jermetodi a ta konti.
         severity:
+          desc_html: "<strong>Silence</strong> will make the account's posts invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all of the account's content, media, and profile data."
           noop: Nulo
-          silence: Limito
+          silence: Silencigez
           suspend: Restriktez
         title: Nova domenobstrukto
-      no_domain_block_selected: Nula domenobstrukti ne chanjesis por ke nulo selektesis
-      not_permitted: Vu ne permisesis agar co
       obfuscate: Nedicernebligez domennomo
       obfuscate_hint: Partala nedicernebligez domennomo en listo se reklamo di listo di domenlimito aktivigesas
       private_comment: Privata komento
@@ -543,6 +538,7 @@ io:
     report_notes:
       created_msg: Raportnoto sucesoze kreesis!
       destroyed_msg: Raportnoto sucesoze efacesis!
+      today_at: Hodie en %{time}
     reports:
       account:
         notes:
@@ -555,6 +551,8 @@ io:
         mark_as_sensitive_description_html: Medii en raportizita posti markizesos quale sentoza e streko rekordigesos por helpar vu intensigar en nexta malagi da la sama konto.
         other_description_html: Videz plu multa opcioni por dominacar konduto di konto e kustumizar komuniko a raportizita konto.
         resolve_description_html: Nulo agesos kontre raportizita konto, streko ne rekordizesos e raporto klozesos.
+        silence_description_html: Profilo esos videbla nur por personi quo ja sequis o manuale trovis, se severe limitizas ola porteo. Sempre povas inversigesar.
+        suspend_description_html: Ca profilo e omna ola kontenaji divenos neacesebla til ol eventuale efacesas. Interagar kun la konto divenos neposibla. Inversigebla til 30 dii.
       actions_description_html: Decidez ago por rezolvar ca raporto. Se vu decidar puniso kontre raportizesis konto, retpostoavizo sendesos a ol, ecepte kande <strong>Spam</strong> kategorio selektesis.
       add_to_report: Insertez pluse a raporto
       are_you_sure: Ka vu esas certa?
@@ -611,7 +609,7 @@ io:
         moderation: Jero
         special: Specala
       delete: Efacez
-      description_html: Per <strong>uzantoroli</strong>, vu povas kustumizar funciono e siti di penpen quon vua uzanti povas uzar.
+      description_html: Per <strong>uzantoroli</strong>, vu povas kustumizar funciono e siti di Penpen quon vua uzanti povas uzar.
       edit: Modifikez rolo di '%{name}'
       everyone: Originala permisi
       everyone_full_description_html: Co esas <strong>bazrolo</strong> quo efektigas <strong>omna uzanti</strong>, mem personi sen rolo. Omna altra roli ganas sama permisi de ol.
@@ -673,13 +671,13 @@ io:
         rules_hint: Havas partikulara areo por reguli quo uzanti expektesar sequar.
         title: Pri co
       appearance:
-        preamble: Kustumizitez retintervizajo di penpen.
+        preamble: Kustumizitez retintervizajo di Penpen.
         title: Aspekto
       branding:
         preamble: Fabrikmarko di ca servilo diferentigas lu de altra servili en la reto. Ca informi forsan montresas che diversa loki. Do, ca informi debas esar klara.
         title: Fabrikmarkeso
       content_retention:
-        preamble: Dominacez quale uzantigita kontenajo retenesar en penpen.
+        preamble: Dominacez quale uzantigita kontenajo retenesar en Penpen.
         title: Kontenajreteneso
       discovery:
         follow_recommendations: Sequez rekomendaji
@@ -816,7 +814,7 @@ io:
     webhooks:
       add_new: Insertez finpunto
       delete: Efacez
-      description_html: "<strong>Rethoko</strong> povigas penpen sendar <strong>samtempoavizi</strong> pri selektita eventi a vua sua apliko, por ke vua apliko povas <strong>automate kauzigar reakti</strong>."
+      description_html: "<strong>Rethoko</strong> povigas Penpen sendar <strong>samtempoavizi</strong> pri selektita eventi a vua sua apliko, por ke vua apliko povas <strong>automate kauzigar reakti</strong>."
       disable: Desaktivigez
       disabled: Desaktivigita
       edit: Modifikez finpunto
@@ -878,8 +876,8 @@ io:
     confirmation_dialogs: Konfirmdialogi
     discovery: Deskovro
     localization:
-      body: penpen tradukesas da voluntarii.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Penpen tradukesas da voluntarii.
+      guide_link: https://crowdin.com/project/Penpen
       guide_link_text: Omnu povas kontributar.
     sensitive_content: Sentoza kontenajo
     toot_layout: Postostrukturo
@@ -898,13 +896,14 @@ io:
     warning: Sorgemez per ca informi. Ne partigez kun irgu!
     your_token: Vua acesficho
   auth:
+    apply_for_account: Esez sur vartlisto
     change_password: Pasvorto
     delete_account: Efacez konto
     delete_account_html: Se vu volas efacar vua konto, vu povas <a href="%{path}">irar hike</a>. Vu demandesos konfirmar.
     description:
-      prefix_invited_by_user: "@%{name} invitas vu juntar ca servilo di penpen!"
-      prefix_sign_up: Registrez che penpen hodie!
-      suffix: Per konto, vu povos sequar personi, postigar novaji e interchanjar mesaji kun uzanti de irga servilo di penpen e pluse!
+      prefix_invited_by_user: "@%{name} invitas vu juntar ca servilo di Penpen!"
+      prefix_sign_up: Registrez che Penpen hodie!
+      suffix: Per konto, vu povos sequar personi, postigar novaji e interchanjar mesaji kun uzanti de irga servilo di Penpen e pluse!
     didnt_get_confirmation: Ka tu ne recevis la instrucioni por konfirmar?
     dont_have_your_security_key: Ka vu ne havas sekuresklefo?
     forgot_password: Pasvorto obliviita?
@@ -935,7 +934,7 @@ io:
       email_settings_hint_html: Konfirmretposto sendesis a %{email}. Se ta retpostoadreso ne esas korekta, vu povas chanjar en kontoopcioni.
       title: Komencoprocedo
     sign_up:
-      preamble: Per konto en ca servilo di penpen, on povas sequar irga persono en ca reto, ne ye ube ona konto hostagisas.
+      preamble: Per konto en ca servilo di Penpen, on povas sequar irga persono en ca reto, ne ye ube ona konto hostagisas.
       title: Ni komencigez vu en %{domain}.
     status:
       account_status: Kontostando
@@ -1048,7 +1047,7 @@ io:
       content: Regreto, ma evas nefuncionas che nia latero.
       title: Ca pagino ne esas korekta
     '503': La pagino ne povas montresas pro tempala servilfalio.
-    noscript_html: Por uzar retsoftwaro di penpen, aktivigez JavaScript. Alternative, probez 1 de <a href="%{apps_path}">konciliebla softwari</a> por penpen por vua platformo.
+    noscript_html: Por uzar retsoftwaro di Penpen, aktivigez JavaScript. Alternative, probez 1 de <a href="%{apps_path}">konciliebla softwari</a> por Penpen por vua platformo.
   existing_username_validator:
     not_found: ne povas trovar lokala uzanti kun ta uzantonomo
     not_found_multiple: ne povas trovar %{usernames}
@@ -1069,6 +1068,8 @@ io:
     storage: Konservado di kontenajo
   featured_tags:
     add_new: Insertez novo
+    errors:
+      limit: Vu ja estelis maxima hashtagi
     hint_html: "<strong>Quo esas estelita hashtagi?</strong> Ol montresas eminente che vua publika profilo e povigas personi vidar vua publika posti partikulare kun ta hashtagi. Oli esas bona utensilo por jeretar kreiva agaji e longa projetaji."
   filters:
     contexts:
@@ -1112,6 +1113,8 @@ io:
       index:
         hint: Ca filtrilo aplikesas a selektita posti ne segun altra kriterio. Vu povas pozar plu multa posti a ca filtrilo de retintervizajo.
         title: Filtrita posti
+  footer:
+    trending_now: Nuna tendenco
   generic:
     all: Omna
     all_items_on_page_selected_html:
@@ -1134,6 +1137,8 @@ io:
     validation_errors:
       one: Ulo ne eventis senprobleme! Voluntez konsultar la suba eror-raporto
       other: Ulo ne eventis senprobleme! Voluntez konsultar la suba %{count} eror-raporti
+  html_validator:
+    invalid_markup: 'kontenas nevalida kompozuro di HTML: %{error}'
   imports:
     errors:
       over_rows_processing_limit: kontenas plu kam %{count} horizontala lineo
@@ -1173,6 +1178,9 @@ io:
       expires_at: Expiros
       uses: Uzi
     title: Invitez personi
+  lists:
+    errors:
+      limit: Vu astingas maxima listi
   login_activities:
     authentication_methods:
       otp: 2-faktoryurizessoftwaro
@@ -1226,8 +1234,6 @@ io:
     carry_blocks_over_text: Ca uzanti transferesis de %{acct} quon vu restriktis.
     carry_mutes_over_text: Ca uzanti transferesis de %{acct} quon vu silencigis.
     copy_account_note_text: 'Ca uzanti transferesis de %{acct}, co esas vua antea noti pri ol:'
-  navigation:
-    toggle_menu: Baskulez menuo
   notification_mailer:
     admin:
       report:
@@ -1347,7 +1353,6 @@ io:
     browser: Vidilo
     browsers:
       alipay: Alipay
-      blackberry: BlackBerry
       chrome: Chrome
       edge: Microsoft Edge
       electron: Electron
@@ -1361,17 +1366,14 @@ io:
       phantom_js: PhantomJS
       qq: Vidilo QQ
       safari: Safari
-      uc_browser: UC Browser
       weibo: Weibo
     current_session: Nuna sesiono
     description: "%{browser} che %{platform}"
-    explanation: Co esas retvidili quo nun konektesis a vua konto di penpen.
+    explanation: Co esas retvidili quo nun konektesis a vua konto di Penpen.
     ip: IP
     platforms:
       adobe_air: Adobe Air
       android: Android
-      blackberry: BlackBerry
-      chrome_os: ChromeOS
       firefox_os: Firefox OS
       ios: iOS
       linux: Linux
@@ -1390,7 +1392,7 @@ io:
     aliases: Kontoaltnomi
     appearance: Aspekto
     authorized_apps: Yurizita apliki
-    back: Retro a penpen
+    back: Retro a Penpen
     delete: Kontoefaco
     development: Developo
     edit_profile: Redaktar la profilo
@@ -1489,6 +1491,7 @@ io:
       '7889238': 3 monati
     min_age_label: Oldeslimito
     min_favs: Retenez favorizita posti mine
+    min_favs_hint: Ne efacas irga vua posti quo ganis mine ca favorizquanto. Restez quale vakua por efacar posti sen suciar olia favorizquanto
     min_reblogs: Retenez bustita posti mine
     min_reblogs_hint: Ne efacas irga vua posti quo bustigesos mine ca foyoquanto. Restez quale vakua por efacar posti sen suciar olia foyoquanto
   stream_entries:
@@ -1501,9 +1504,9 @@ io:
   tags:
     does_not_match_previous_name: ne parigesas a antea nomo
   themes:
-    contrast: penpen (Alta kontrasteso)
-    default: penpen (Obskura)
-    mastodon-light: penpen (Brila)
+    contrast: Penpen (Alta kontrasteso)
+    default: Penpen (Obskura)
+    Penpen-light: Penpen (Brila)
   time:
     formats:
       default: "%d %b, %Y, %H:%M"
@@ -1535,7 +1538,7 @@ io:
       subject: Vua apelo de %{date} refuzesis
       title: Apelo refuzesis
     backup_ready:
-      explanation: Vu demandis kompleta kopiur di vua konto di penpen. Ol esas nun pronte deschargebla!
+      explanation: Vu demandis kompleta kopiur di vua konto di Penpen. Ol esas nun pronte deschargebla!
       subject: Vua arkivo pronte deschargebla
       title: Arkivekpreno
     suspicious_sign_in:
@@ -1584,7 +1587,7 @@ io:
       final_step: 'Jus postigez! Mem sen sequanti, vua publika posti povas videsar da altra personi, exemplo es en lokala tempolineo e en hashtagi. Vu povas anke introduktar su en #introductions hashtagi.'
       full_handle: Vua kompleta profilnomo
       full_handle_hint: Co esas quon vu dicos a amiki por ke oli povas mesajigar o sequar vu de altra servilo.
-      subject: Bonveno a penpen
+      subject: Bonveno a Penpen
       title: Bonveno, %{name}!
   users:
     follow_limit_reached: Vu ne povas sequar plu kam %{limit} personi

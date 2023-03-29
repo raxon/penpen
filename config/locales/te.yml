@@ -1,7 +1,7 @@
 ---
 te:
   about:
-    about_mastodon_html: మాస్టొడాన్ అనేది ఒక సామాజిక మాధ్యమం. ఇది పూర్తిగా ఉచితం మరియు స్వేచ్ఛా సాఫ్టువేరు. ఈమెయిల్ లాగానే ఇది వికేంద్రీకరించబడినది.
+    about_Penpen_html: మాస్టొడాన్ అనేది ఒక సామాజిక మాధ్యమం. ఇది పూర్తిగా ఉచితం మరియు స్వేచ్ఛా సాఫ్టువేరు. ఈమెయిల్ లాగానే ఇది వికేంద్రీకరించబడినది.
     contact_missing: ఇంకా సెట్ చేయలేదు
     contact_unavailable: వర్తించదు
     hosted_on: మాస్టొడాన్ %{domain} లో హోస్టు చేయబడింది
@@ -76,5 +76,7 @@ te:
     '404': The page you are looking for isn't here.
     '406': This page is not available in the requested format.
     '410': The page you were looking for doesn't exist here anymore.
+    '422': 
     '429': Too many requests
+    '500': 
     '503': The page could not be served due to a temporary server failure.

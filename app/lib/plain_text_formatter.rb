@@ -18,7 +18,7 @@ class PlainTextFormatter
     if local?
       text
     else
-      html_entities.decode(strip_tags(insert_newlines)).chomp
+      strip_tags(insert_newlines).chomp
     end
   end
 
@@ -26,9 +26,5 @@ class PlainTextFormatter
 
   def insert_newlines
     text.gsub(NEWLINE_TAGS_RE) { |match| "#{match}\n" }
-  end
-
-  def html_entities
-    HTMLEntities.new
   end
 end

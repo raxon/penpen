@@ -9,20 +9,20 @@ hr:
       confirmation_instructions:
         action: Potvrdi adresu e-pošte
         action_with_app: Potvrdi i vrati se na %{app}
-        subject: 'penpen: upute za potvrđivanje za %{instance}'
+        subject: 'Penpen: upute za potvrđivanje za %{instance}'
         title: Potvrdi adresu e-pošte
       email_changed:
-        subject: 'penpen: adresa e-pošte je promijenjena'
+        subject: 'Penpen: adresa e-pošte je promijenjena'
         title: Nova adresa e-pošte
       password_change:
-        subject: 'penpen: lozinka je promijenjena'
+        subject: 'Penpen: lozinka je promijenjena'
       reset_password_instructions:
-        subject: 'penpen: upute za ponovno postavljanje lozinke'
+        subject: 'Penpen: upute za ponovno postavljanje lozinke'
         title: Ponovno postavljanje lozinke
       two_factor_disabled:
         title: 2FA je onemogućen
       unlock_instructions:
-        subject: 'penpen: upute za otključavanje'
+        subject: 'Penpen: upute za otključavanje'
     omniauth_callbacks:
       failure: Ne možemo Vas autentificirati s %{kind} zbog "%{reason}".
       success: Uspješno ste autentificirani s računom na %{kind}.

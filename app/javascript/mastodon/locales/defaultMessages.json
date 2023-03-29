@@ -18,7 +18,7 @@
         "id": "alert.rate_limited.message"
       }
     ],
-    "path": "app/javascript/mastodon/actions/alerts.json"
+    "path": "app/javascript/Penpen/actions/alerts.json"
   },
   {
     "descriptors": [
@@ -31,7 +31,7 @@
         "id": "upload_error.poll"
       }
     ],
-    "path": "app/javascript/mastodon/actions/compose.json"
+    "path": "app/javascript/Penpen/actions/compose.json"
   },
   {
     "descriptors": [
@@ -44,7 +44,7 @@
         "id": "notifications.group"
       }
     ],
-    "path": "app/javascript/mastodon/actions/notifications.json"
+    "path": "app/javascript/Penpen/actions/notifications.json"
   },
   {
     "descriptors": [
@@ -85,7 +85,7 @@
         "id": "account.block"
       }
     ],
-    "path": "app/javascript/mastodon/components/account.json"
+    "path": "app/javascript/Penpen/components/account.json"
   },
   {
     "descriptors": [
@@ -102,7 +102,7 @@
         "id": "report.categories.violation"
       }
     ],
-    "path": "app/javascript/mastodon/components/admin/ReportReasonSelector.json"
+    "path": "app/javascript/Penpen/components/admin/ReportReasonSelector.json"
   },
   {
     "descriptors": [
@@ -131,7 +131,7 @@
         "id": "admin.dashboard.monthly_retention"
       }
     ],
-    "path": "app/javascript/mastodon/components/admin/Retention.json"
+    "path": "app/javascript/Penpen/components/admin/Retention.json"
   },
   {
     "descriptors": [
@@ -140,7 +140,7 @@
         "id": "trends.trending_now"
       }
     ],
-    "path": "app/javascript/mastodon/components/admin/Trends.json"
+    "path": "app/javascript/Penpen/components/admin/Trends.json"
   },
   {
     "descriptors": [
@@ -149,7 +149,7 @@
         "id": "attachments_list.unprocessed"
       }
     ],
-    "path": "app/javascript/mastodon/components/attachment_list.json"
+    "path": "app/javascript/Penpen/components/attachment_list.json"
   },
   {
     "descriptors": [
@@ -158,7 +158,7 @@
         "id": "autosuggest_hashtag.per_week"
       }
     ],
-    "path": "app/javascript/mastodon/components/autosuggest_hashtag.json"
+    "path": "app/javascript/Penpen/components/autosuggest_hashtag.json"
   },
   {
     "descriptors": [
@@ -167,7 +167,7 @@
         "id": "column_back_button.label"
       }
     ],
-    "path": "app/javascript/mastodon/components/column_back_button_slim.json"
+    "path": "app/javascript/Penpen/components/column_back_button_slim.json"
   },
   {
     "descriptors": [
@@ -176,7 +176,7 @@
         "id": "column_back_button.label"
       }
     ],
-    "path": "app/javascript/mastodon/components/column_back_button.json"
+    "path": "app/javascript/Penpen/components/column_back_button.json"
   },
   {
     "descriptors": [
@@ -209,7 +209,7 @@
         "id": "column_back_button.label"
       }
     ],
-    "path": "app/javascript/mastodon/components/column_header.json"
+    "path": "app/javascript/Penpen/components/column_header.json"
   },
   {
     "descriptors": [
@@ -226,7 +226,7 @@
         "id": "account.followers_counter"
       }
     ],
-    "path": "app/javascript/mastodon/components/common_counter.json"
+    "path": "app/javascript/Penpen/components/common_counter.json"
   },
   {
     "descriptors": [
@@ -235,7 +235,7 @@
         "id": "dismissable_banner.dismiss"
       }
     ],
-    "path": "app/javascript/mastodon/components/dismissable_banner.json"
+    "path": "app/javascript/Penpen/components/dismissable_banner.json"
   },
   {
     "descriptors": [
@@ -244,7 +244,7 @@
         "id": "account.unblock_domain"
       }
     ],
-    "path": "app/javascript/mastodon/components/domain.json"
+    "path": "app/javascript/Penpen/components/domain.json"
   },
   {
     "descriptors": [
@@ -265,7 +265,7 @@
         "id": "status.edited"
       }
     ],
-    "path": "app/javascript/mastodon/components/edited_timestamp/index.json"
+    "path": "app/javascript/Penpen/components/edited_timestamp/index.json"
   },
   {
     "descriptors": [
@@ -278,11 +278,11 @@
         "id": "error.unexpected_crash.explanation"
       },
       {
-        "defaultMessage": "Try disabling them and refreshing the page. If that does not help, you may still be able to use penpen through a different browser or native app.",
+        "defaultMessage": "Try disabling them and refreshing the page. If that does not help, you may still be able to use Penpen through a different browser or native app.",
         "id": "error.unexpected_crash.next_steps_addons"
       },
       {
-        "defaultMessage": "Try refreshing the page. If that does not help, you may still be able to use penpen through a different browser or native app.",
+        "defaultMessage": "Try refreshing the page. If that does not help, you may still be able to use Penpen through a different browser or native app.",
         "id": "error.unexpected_crash.next_steps"
       },
       {
@@ -294,7 +294,7 @@
         "id": "errors.unexpected_crash.copy_stacktrace"
       }
     ],
-    "path": "app/javascript/mastodon/components/error_boundary.json"
+    "path": "app/javascript/Penpen/components/error_boundary.json"
   },
   {
     "descriptors": [
@@ -303,7 +303,7 @@
         "id": "trends.counter_by_accounts"
       }
     ],
-    "path": "app/javascript/mastodon/components/hashtag.json"
+    "path": "app/javascript/Penpen/components/hashtag.json"
   },
   {
     "descriptors": [
@@ -312,7 +312,7 @@
         "id": "status.load_more"
       }
     ],
-    "path": "app/javascript/mastodon/components/load_gap.json"
+    "path": "app/javascript/Penpen/components/load_gap.json"
   },
   {
     "descriptors": [
@@ -321,7 +321,7 @@
         "id": "status.load_more"
       }
     ],
-    "path": "app/javascript/mastodon/components/load_more.json"
+    "path": "app/javascript/Penpen/components/load_more.json"
   },
   {
     "descriptors": [
@@ -330,7 +330,7 @@
         "id": "load_pending"
       }
     ],
-    "path": "app/javascript/mastodon/components/load_pending.json"
+    "path": "app/javascript/Penpen/components/load_pending.json"
   },
   {
     "descriptors": [
@@ -351,7 +351,7 @@
         "id": "status.media_hidden"
       }
     ],
-    "path": "app/javascript/mastodon/components/media_gallery.json"
+    "path": "app/javascript/Penpen/components/media_gallery.json"
   },
   {
     "descriptors": [
@@ -364,7 +364,7 @@
         "id": "missing_indicator.sublabel"
       }
     ],
-    "path": "app/javascript/mastodon/components/missing_indicator.json"
+    "path": "app/javascript/Penpen/components/missing_indicator.json"
   },
   {
     "descriptors": [
@@ -373,7 +373,7 @@
         "id": "not_signed_in_indicator.not_signed_in"
       }
     ],
-    "path": "app/javascript/mastodon/components/not_signed_in_indicator.json"
+    "path": "app/javascript/Penpen/components/not_signed_in_indicator.json"
   },
   {
     "descriptors": [
@@ -382,7 +382,7 @@
         "id": "picture_in_picture.restore"
       }
     ],
-    "path": "app/javascript/mastodon/components/picture_in_picture_placeholder.json"
+    "path": "app/javascript/Penpen/components/picture_in_picture_placeholder.json"
   },
   {
     "descriptors": [
@@ -415,7 +415,7 @@
         "id": "poll.refresh"
       }
     ],
-    "path": "app/javascript/mastodon/components/poll.json"
+    "path": "app/javascript/Penpen/components/poll.json"
   },
   {
     "descriptors": [
@@ -428,7 +428,7 @@
         "id": "regeneration_indicator.sublabel"
       }
     ],
-    "path": "app/javascript/mastodon/components/regeneration_indicator.json"
+    "path": "app/javascript/Penpen/components/regeneration_indicator.json"
   },
   {
     "descriptors": [
@@ -497,7 +497,7 @@
         "id": "time_remaining.days"
       }
     ],
-    "path": "app/javascript/mastodon/components/relative_timestamp.json"
+    "path": "app/javascript/Penpen/components/relative_timestamp.json"
   },
   {
     "descriptors": [
@@ -506,7 +506,7 @@
         "id": "server_banner.about_active_users"
       },
       {
-        "defaultMessage": "{domain} is part of the decentralized social network powered by {mastodon}.",
+        "defaultMessage": "{domain} is part of the decentralized social network powered by {Penpen}.",
         "id": "server_banner.introduction"
       },
       {
@@ -526,7 +526,7 @@
         "id": "server_banner.learn_more"
       }
     ],
-    "path": "app/javascript/mastodon/components/server_banner.json"
+    "path": "app/javascript/Penpen/components/server_banner.json"
   },
   {
     "descriptors": [
@@ -543,7 +543,7 @@
         "id": "units.short.billion"
       }
     ],
-    "path": "app/javascript/mastodon/components/short_number.json"
+    "path": "app/javascript/Penpen/components/short_number.json"
   },
   {
     "descriptors": [
@@ -652,19 +652,15 @@
         "id": "status.admin_account"
       },
       {
-        "defaultMessage": "Open this post in the moderation interface",
+        "defaultMessage": "Open this status in the moderation interface",
         "id": "status.admin_status"
       },
       {
-        "defaultMessage": "Open moderation interface for {domain}",
-        "id": "status.admin_domain"
-      },
-      {
-        "defaultMessage": "Copy link to post",
+        "defaultMessage": "Copy link to status",
         "id": "status.copy"
       },
       {
-        "defaultMessage": "Hide post",
+        "defaultMessage": "Hide toot",
         "id": "status.hide"
       },
       {
@@ -692,7 +688,7 @@
         "id": "account.open_original_page"
       }
     ],
-    "path": "app/javascript/mastodon/components/status_action_bar.json"
+    "path": "app/javascript/Penpen/components/status_action_bar.json"
   },
   {
     "descriptors": [
@@ -721,7 +717,7 @@
         "id": "status.show_less"
       }
     ],
-    "path": "app/javascript/mastodon/components/status_content.json"
+    "path": "app/javascript/Penpen/components/status_content.json"
   },
   {
     "descriptors": [
@@ -766,7 +762,7 @@
         "id": "status.replied_to"
       }
     ],
-    "path": "app/javascript/mastodon/components/status.json"
+    "path": "app/javascript/Penpen/components/status.json"
   },
   {
     "descriptors": [
@@ -779,7 +775,7 @@
         "id": "account.browse_more_on_origin_server"
       }
     ],
-    "path": "app/javascript/mastodon/components/timeline_hint.json"
+    "path": "app/javascript/Penpen/components/timeline_hint.json"
   },
   {
     "descriptors": [
@@ -792,7 +788,7 @@
         "id": "confirmations.unfollow.message"
       }
     ],
-    "path": "app/javascript/mastodon/containers/account_container.json"
+    "path": "app/javascript/Penpen/containers/account_container.json"
   },
   {
     "descriptors": [
@@ -805,7 +801,7 @@
         "id": "confirmations.domain_block.message"
       }
     ],
-    "path": "app/javascript/mastodon/containers/domain_container.json"
+    "path": "app/javascript/Penpen/containers/domain_container.json"
   },
   {
     "descriptors": [
@@ -842,7 +838,7 @@
         "id": "confirmations.domain_block.message"
       }
     ],
-    "path": "app/javascript/mastodon/containers/status_container.json"
+    "path": "app/javascript/Penpen/containers/status_container.json"
   },
   {
     "descriptors": [
@@ -875,7 +871,7 @@
         "id": "about.domain_blocks.suspended.explanation"
       },
       {
-        "defaultMessage": "Decentralized social media powered by {mastodon}",
+        "defaultMessage": "Decentralized social media powered by {Penpen}",
         "id": "about.powered_by"
       },
       {
@@ -891,7 +887,7 @@
         "id": "about.not_available"
       },
       {
-        "defaultMessage": "penpen generally allows you to view content from and interact with users from any other server in the fediverse. These are the exceptions that have been made on this particular server.",
+        "defaultMessage": "Penpen generally allows you to view content from and interact with users from any other server in the fediverse. These are the exceptions that have been made on this particular server.",
         "id": "about.domain_blocks.preamble"
       },
       {
@@ -899,11 +895,11 @@
         "id": "about.domain_blocks.no_reason_available"
       },
       {
-        "defaultMessage": "penpen is free, open-source software, and a trademark of penpen gGmbH.",
+        "defaultMessage": "Penpen is free, open-source software, and a trademark of Penpen gGmbH.",
         "id": "about.disclaimer"
       }
     ],
-    "path": "app/javascript/mastodon/features/about/index.json"
+    "path": "app/javascript/Penpen/features/about/index.json"
   },
   {
     "descriptors": [
@@ -916,7 +912,7 @@
         "id": "empty_column.account_unavailable"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_gallery/index.json"
+    "path": "app/javascript/Penpen/features/account_gallery/index.json"
   },
   {
     "descriptors": [
@@ -933,7 +929,7 @@
         "id": "account.media"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_timeline/components/header.json"
+    "path": "app/javascript/Penpen/features/account_timeline/components/header.json"
   },
   {
     "descriptors": [
@@ -946,7 +942,7 @@
         "id": "limited_account_hint.action"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_timeline/components/limited_account_hint.json"
+    "path": "app/javascript/Penpen/features/account_timeline/components/limited_account_hint.json"
   },
   {
     "descriptors": [
@@ -959,7 +955,7 @@
         "id": "account.go_to_profile"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_timeline/components/moved_note.json"
+    "path": "app/javascript/Penpen/features/account_timeline/components/moved_note.json"
   },
   {
     "descriptors": [
@@ -988,7 +984,7 @@
         "id": "confirmations.domain_block.message"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_timeline/containers/header_container.json"
+    "path": "app/javascript/Penpen/features/account_timeline/containers/header_container.json"
   },
   {
     "descriptors": [
@@ -1009,7 +1005,7 @@
         "id": "empty_column.account_timeline"
       }
     ],
-    "path": "app/javascript/mastodon/features/account_timeline/index.json"
+    "path": "app/javascript/Penpen/features/account_timeline/index.json"
   },
   {
     "descriptors": [
@@ -1026,7 +1022,7 @@
         "id": "account.account_note_header"
       }
     ],
-    "path": "app/javascript/mastodon/features/account/components/account_note.json"
+    "path": "app/javascript/Penpen/features/account/components/account_note.json"
   },
   {
     "descriptors": [
@@ -1043,24 +1039,7 @@
         "id": "account.featured_tags.title"
       }
     ],
-    "path": "app/javascript/mastodon/features/account/components/featured_tags.json"
-  },
-  {
-    "descriptors": [
-      {
-        "defaultMessage": "{name} has requested to follow you",
-        "id": "account.requested_follow"
-      },
-      {
-        "defaultMessage": "Authorize",
-        "id": "follow_request.authorize"
-      },
-      {
-        "defaultMessage": "Reject",
-        "id": "follow_request.reject"
-      }
-    ],
-    "path": "app/javascript/mastodon/features/account/components/follow_request_note.json"
+    "path": "app/javascript/Penpen/features/account/components/featured_tags.json"
   },
   {
     "descriptors": [
@@ -1173,10 +1152,6 @@
         "id": "navigation_bar.lists"
       },
       {
-        "defaultMessage": "Followed hashtags",
-        "id": "navigation_bar.followed_tags"
-      },
-      {
         "defaultMessage": "Blocked users",
         "id": "navigation_bar.blocks"
       },
@@ -1203,10 +1178,6 @@
       {
         "defaultMessage": "Open moderation interface for @{name}",
         "id": "status.admin_account"
-      },
-      {
-        "defaultMessage": "Open moderation interface for {domain}",
-        "id": "status.admin_domain"
       },
       {
         "defaultMessage": "Change subscribed languages",
@@ -1245,7 +1216,7 @@
         "id": "account.joined_short"
       }
     ],
-    "path": "app/javascript/mastodon/features/account/components/header.json"
+    "path": "app/javascript/Penpen/features/account/components/header.json"
   },
   {
     "descriptors": [
@@ -1282,7 +1253,7 @@
         "id": "status.media_hidden"
       }
     ],
-    "path": "app/javascript/mastodon/features/audio/index.json"
+    "path": "app/javascript/Penpen/features/audio/index.json"
   },
   {
     "descriptors": [
@@ -1295,7 +1266,7 @@
         "id": "empty_column.blocks"
       }
     ],
-    "path": "app/javascript/mastodon/features/blocks/index.json"
+    "path": "app/javascript/Penpen/features/blocks/index.json"
   },
   {
     "descriptors": [
@@ -1308,20 +1279,20 @@
         "id": "empty_column.bookmarked_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/bookmarked_statuses/index.json"
+    "path": "app/javascript/Penpen/features/bookmarked_statuses/index.json"
   },
   {
     "descriptors": [
       {
-        "defaultMessage": "Creating an account on {domain} is currently not possible, but please keep in mind that you do not need an account specifically on {domain} to use penpen.",
+        "defaultMessage": "Creating an account on {domain} is currently not possible, but please keep in mind that you do not need an account specifically on {domain} to use Penpen.",
         "id": "closed_registrations_modal.description"
       },
       {
-        "defaultMessage": "Signing up on penpen",
+        "defaultMessage": "Signing up on Penpen",
         "id": "closed_registrations_modal.title"
       },
       {
-        "defaultMessage": "penpen is decentralized, so no matter where you create your account, you will be able to follow and interact with anyone on this server. You can even self-host it!",
+        "defaultMessage": "Penpen is decentralized, so no matter where you create your account, you will be able to follow and interact with anyone on this server. You can even self-host it!",
         "id": "closed_registrations_modal.preamble"
       },
       {
@@ -1333,7 +1304,7 @@
         "id": "interaction_modal.on_another_server"
       },
       {
-        "defaultMessage": "Since penpen is decentralized, you can create an account on another server and still interact with this one.",
+        "defaultMessage": "Since Penpen is decentralized, you can create an account on another server and still interact with this one.",
         "id": "closed_registrations.other_server_instructions"
       },
       {
@@ -1341,7 +1312,7 @@
         "id": "closed_registrations_modal.find_another_server"
       }
     ],
-    "path": "app/javascript/mastodon/features/closed_registrations_modal/index.json"
+    "path": "app/javascript/Penpen/features/closed_registrations_modal/index.json"
   },
   {
     "descriptors": [
@@ -1350,7 +1321,7 @@
         "id": "community.column_settings.media_only"
       }
     ],
-    "path": "app/javascript/mastodon/features/community_timeline/components/column_settings.json"
+    "path": "app/javascript/Penpen/features/community_timeline/components/column_settings.json"
   },
   {
     "descriptors": [
@@ -1367,7 +1338,7 @@
         "id": "empty_column.community"
       }
     ],
-    "path": "app/javascript/mastodon/features/community_timeline/index.json"
+    "path": "app/javascript/Penpen/features/community_timeline/index.json"
   },
   {
     "descriptors": [
@@ -1396,10 +1367,6 @@
         "id": "navigation_bar.lists"
       },
       {
-        "defaultMessage": "Followed hashtags",
-        "id": "navigation_bar.followed_tags"
-      },
-      {
         "defaultMessage": "Blocked users",
         "id": "navigation_bar.blocks"
       },
@@ -1424,7 +1391,7 @@
         "id": "navigation_bar.bookmarks"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/action_bar.json"
+    "path": "app/javascript/Penpen/features/compose/components/action_bar.json"
   },
   {
     "descriptors": [
@@ -1449,7 +1416,7 @@
         "id": "compose_form.save_changes"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/compose_form.json"
+    "path": "app/javascript/Penpen/features/compose/components/compose_form.json"
   },
   {
     "descriptors": [
@@ -1510,7 +1477,7 @@
         "id": "emoji_button.not_found"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/emoji_picker_dropdown.json"
+    "path": "app/javascript/Penpen/features/compose/components/emoji_picker_dropdown.json"
   },
   {
     "descriptors": [
@@ -1527,7 +1494,7 @@
         "id": "emoji_button.clear"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/language_dropdown.json"
+    "path": "app/javascript/Penpen/features/compose/components/language_dropdown.json"
   },
   {
     "descriptors": [
@@ -1536,7 +1503,7 @@
         "id": "navigation_bar.edit_profile"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/navigation_bar.json"
+    "path": "app/javascript/Penpen/features/compose/components/navigation_bar.json"
   },
   {
     "descriptors": [
@@ -1549,7 +1516,7 @@
         "id": "poll_button.remove_poll"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/poll_button.json"
+    "path": "app/javascript/Penpen/features/compose/components/poll_button.json"
   },
   {
     "descriptors": [
@@ -1590,7 +1557,7 @@
         "id": "intervals.full.days"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/poll_form.json"
+    "path": "app/javascript/Penpen/features/compose/components/poll_form.json"
   },
   {
     "descriptors": [
@@ -1631,7 +1598,7 @@
         "id": "privacy.change"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/privacy_dropdown.json"
+    "path": "app/javascript/Penpen/features/compose/components/privacy_dropdown.json"
   },
   {
     "descriptors": [
@@ -1640,7 +1607,7 @@
         "id": "reply_indicator.cancel"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/reply_indicator.json"
+    "path": "app/javascript/Penpen/features/compose/components/reply_indicator.json"
   },
   {
     "descriptors": [
@@ -1661,7 +1628,7 @@
         "id": "search_results.statuses"
       },
       {
-        "defaultMessage": "Searching posts by their content is not enabled on this penpen server.",
+        "defaultMessage": "Searching posts by their content is not enabled on this Penpen server.",
         "id": "search_results.statuses_fts_disabled"
       },
       {
@@ -1673,7 +1640,7 @@
         "id": "search_results.total"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/search_results.json"
+    "path": "app/javascript/Penpen/features/compose/components/search_results.json"
   },
   {
     "descriptors": [
@@ -1710,7 +1677,7 @@
         "id": "search_popout.tips.status"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/search.json"
+    "path": "app/javascript/Penpen/features/compose/components/search.json"
   },
   {
     "descriptors": [
@@ -1719,7 +1686,7 @@
         "id": "upload_button.label"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/upload_button.json"
+    "path": "app/javascript/Penpen/features/compose/components/upload_button.json"
   },
   {
     "descriptors": [
@@ -1732,7 +1699,7 @@
         "id": "upload_progress.label"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/upload_progress.json"
+    "path": "app/javascript/Penpen/features/compose/components/upload_progress.json"
   },
   {
     "descriptors": [
@@ -1749,7 +1716,7 @@
         "id": "upload_form.description_missing"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/components/upload.json"
+    "path": "app/javascript/Penpen/features/compose/components/upload.json"
   },
   {
     "descriptors": [
@@ -1762,7 +1729,7 @@
         "id": "confirmations.logout.confirm"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/containers/navigation_container.json"
+    "path": "app/javascript/Penpen/features/compose/containers/navigation_container.json"
   },
   {
     "descriptors": [
@@ -1779,7 +1746,7 @@
         "id": "compose_form.sensitive.hide"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/containers/sensitive_button_container.json"
+    "path": "app/javascript/Penpen/features/compose/containers/sensitive_button_container.json"
   },
   {
     "descriptors": [
@@ -1792,7 +1759,7 @@
         "id": "compose_form.spoiler.unmarked"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/containers/spoiler_button_container.json"
+    "path": "app/javascript/Penpen/features/compose/containers/spoiler_button_container.json"
   },
   {
     "descriptors": [
@@ -1809,7 +1776,7 @@
         "id": "compose_form.hashtag_warning"
       },
       {
-        "defaultMessage": "Posts on penpen are not end-to-end encrypted. Do not share any dangerous information over penpen.",
+        "defaultMessage": "Posts on Penpen are not end-to-end encrypted. Do not share any dangerous information over Penpen.",
         "id": "compose_form.encryption_warning"
       },
       {
@@ -1817,7 +1784,7 @@
         "id": "compose_form.direct_message_warning_learn_more"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/containers/warning_container.json"
+    "path": "app/javascript/Penpen/features/compose/containers/warning_container.json"
   },
   {
     "descriptors": [
@@ -1862,7 +1829,7 @@
         "id": "confirmations.logout.confirm"
       }
     ],
-    "path": "app/javascript/mastodon/features/compose/index.json"
+    "path": "app/javascript/Penpen/features/compose/index.json"
   },
   {
     "descriptors": [
@@ -1899,7 +1866,7 @@
         "id": "conversation.with"
       }
     ],
-    "path": "app/javascript/mastodon/features/direct_timeline/components/conversation.json"
+    "path": "app/javascript/Penpen/features/direct_timeline/components/conversation.json"
   },
   {
     "descriptors": [
@@ -1912,7 +1879,7 @@
         "id": "confirmations.reply.message"
       }
     ],
-    "path": "app/javascript/mastodon/features/direct_timeline/containers/conversation_container.json"
+    "path": "app/javascript/Penpen/features/direct_timeline/containers/conversation_container.json"
   },
   {
     "descriptors": [
@@ -1921,7 +1888,7 @@
         "id": "column.direct"
       },
       {
-        "defaultMessage": "Posts on penpen are not end-to-end encrypted. Do not share any dangerous information over penpen.",
+        "defaultMessage": "Posts on Penpen are not end-to-end encrypted. Do not share any dangerous information over Penpen.",
         "id": "compose_form.encryption_warning"
       },
       {
@@ -1933,7 +1900,7 @@
         "id": "empty_column.direct"
       }
     ],
-    "path": "app/javascript/mastodon/features/direct_timeline/index.json"
+    "path": "app/javascript/Penpen/features/direct_timeline/index.json"
   },
   {
     "descriptors": [
@@ -1994,7 +1961,7 @@
         "id": "account.following"
       }
     ],
-    "path": "app/javascript/mastodon/features/directory/components/account_card.json"
+    "path": "app/javascript/Penpen/features/directory/components/account_card.json"
   },
   {
     "descriptors": [
@@ -2019,7 +1986,7 @@
         "id": "directory.federated"
       }
     ],
-    "path": "app/javascript/mastodon/features/directory/index.json"
+    "path": "app/javascript/Penpen/features/directory/index.json"
   },
   {
     "descriptors": [
@@ -2036,7 +2003,7 @@
         "id": "empty_column.domain_blocks"
       }
     ],
-    "path": "app/javascript/mastodon/features/domain_blocks/index.json"
+    "path": "app/javascript/Penpen/features/domain_blocks/index.json"
   },
   {
     "descriptors": [
@@ -2065,7 +2032,7 @@
         "id": "explore.suggested_follows"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/index.json"
+    "path": "app/javascript/Penpen/features/explore/index.json"
   },
   {
     "descriptors": [
@@ -2078,7 +2045,7 @@
         "id": "empty_column.explore_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/links.json"
+    "path": "app/javascript/Penpen/features/explore/links.json"
   },
   {
     "descriptors": [
@@ -2107,7 +2074,7 @@
         "id": "search_results.statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/results.json"
+    "path": "app/javascript/Penpen/features/explore/results.json"
   },
   {
     "descriptors": [
@@ -2120,7 +2087,7 @@
         "id": "dismissable_banner.explore_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/statuses.json"
+    "path": "app/javascript/Penpen/features/explore/statuses.json"
   },
   {
     "descriptors": [
@@ -2129,7 +2096,7 @@
         "id": "empty_column.explore_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/suggestions.json"
+    "path": "app/javascript/Penpen/features/explore/suggestions.json"
   },
   {
     "descriptors": [
@@ -2142,7 +2109,7 @@
         "id": "empty_column.explore_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/explore/tags.json"
+    "path": "app/javascript/Penpen/features/explore/tags.json"
   },
   {
     "descriptors": [
@@ -2155,7 +2122,7 @@
         "id": "empty_column.favourited_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/favourited_statuses/index.json"
+    "path": "app/javascript/Penpen/features/favourited_statuses/index.json"
   },
   {
     "descriptors": [
@@ -2168,7 +2135,7 @@
         "id": "empty_column.favourites"
       }
     ],
-    "path": "app/javascript/mastodon/features/favourites/index.json"
+    "path": "app/javascript/Penpen/features/favourites/index.json"
   },
   {
     "descriptors": [
@@ -2213,7 +2180,7 @@
         "id": "report.close"
       }
     ],
-    "path": "app/javascript/mastodon/features/filters/added_to_filter.json"
+    "path": "app/javascript/Penpen/features/filters/added_to_filter.json"
   },
   {
     "descriptors": [
@@ -2246,7 +2213,7 @@
         "id": "filter_modal.select_filter.subtitle"
       }
     ],
-    "path": "app/javascript/mastodon/features/filters/select_filter.json"
+    "path": "app/javascript/Penpen/features/filters/select_filter.json"
   },
   {
     "descriptors": [
@@ -2259,7 +2226,7 @@
         "id": "account.unfollow"
       }
     ],
-    "path": "app/javascript/mastodon/features/follow_recommendations/components/account.json"
+    "path": "app/javascript/Penpen/features/follow_recommendations/components/account.json"
   },
   {
     "descriptors": [
@@ -2280,7 +2247,7 @@
         "id": "follow_recommendations.done"
       }
     ],
-    "path": "app/javascript/mastodon/features/follow_recommendations/index.json"
+    "path": "app/javascript/Penpen/features/follow_recommendations/index.json"
   },
   {
     "descriptors": [
@@ -2293,7 +2260,7 @@
         "id": "follow_request.reject"
       }
     ],
-    "path": "app/javascript/mastodon/features/follow_requests/components/account_authorize.json"
+    "path": "app/javascript/Penpen/features/follow_requests/components/account_authorize.json"
   },
   {
     "descriptors": [
@@ -2310,20 +2277,7 @@
         "id": "follow_requests.unlocked_explanation"
       }
     ],
-    "path": "app/javascript/mastodon/features/follow_requests/index.json"
-  },
-  {
-    "descriptors": [
-      {
-        "defaultMessage": "Followed hashtags",
-        "id": "followed_tags"
-      },
-      {
-        "defaultMessage": "You have not followed any hashtags yet. When you do, they will show up here.",
-        "id": "empty_column.followed_tags"
-      }
-    ],
-    "path": "app/javascript/mastodon/features/followed_tags/index.json"
+    "path": "app/javascript/Penpen/features/follow_requests/index.json"
   },
   {
     "descriptors": [
@@ -2344,7 +2298,7 @@
         "id": "account.followers.empty"
       }
     ],
-    "path": "app/javascript/mastodon/features/followers/index.json"
+    "path": "app/javascript/Penpen/features/followers/index.json"
   },
   {
     "descriptors": [
@@ -2365,7 +2319,7 @@
         "id": "account.follows.empty"
       }
     ],
-    "path": "app/javascript/mastodon/features/following/index.json"
+    "path": "app/javascript/Penpen/features/following/index.json"
   },
   {
     "descriptors": [
@@ -2386,7 +2340,7 @@
         "id": "announcement.announcement"
       }
     ],
-    "path": "app/javascript/mastodon/features/getting_started/components/announcements.json"
+    "path": "app/javascript/Penpen/features/getting_started/components/announcements.json"
   },
   {
     "descriptors": [
@@ -2395,7 +2349,7 @@
         "id": "trends.trending_now"
       }
     ],
-    "path": "app/javascript/mastodon/features/getting_started/components/trends.json"
+    "path": "app/javascript/Penpen/features/getting_started/components/trends.json"
   },
   {
     "descriptors": [
@@ -2480,7 +2434,7 @@
         "id": "getting_started.heading"
       }
     ],
-    "path": "app/javascript/mastodon/features/getting_started/index.json"
+    "path": "app/javascript/Penpen/features/getting_started/index.json"
   },
   {
     "descriptors": [
@@ -2513,7 +2467,7 @@
         "id": "community.column_settings.local_only"
       }
     ],
-    "path": "app/javascript/mastodon/features/hashtag_timeline/components/column_settings.json"
+    "path": "app/javascript/Penpen/features/hashtag_timeline/components/column_settings.json"
   },
   {
     "descriptors": [
@@ -2542,7 +2496,7 @@
         "id": "empty_column.hashtag"
       }
     ],
-    "path": "app/javascript/mastodon/features/hashtag_timeline/index.json"
+    "path": "app/javascript/Penpen/features/hashtag_timeline/index.json"
   },
   {
     "descriptors": [
@@ -2559,7 +2513,7 @@
         "id": "home.column_settings.show_replies"
       }
     ],
-    "path": "app/javascript/mastodon/features/home_timeline/components/column_settings.json"
+    "path": "app/javascript/Penpen/features/home_timeline/components/column_settings.json"
   },
   {
     "descriptors": [
@@ -2584,7 +2538,7 @@
         "id": "empty_column.home.suggestions"
       }
     ],
-    "path": "app/javascript/mastodon/features/home_timeline/index.json"
+    "path": "app/javascript/Penpen/features/home_timeline/index.json"
   },
   {
     "descriptors": [
@@ -2601,7 +2555,7 @@
         "id": "interaction_modal.title.reply"
       },
       {
-        "defaultMessage": "With an account on penpen, you can respond to this post.",
+        "defaultMessage": "With an account on Penpen, you can respond to this post.",
         "id": "interaction_modal.description.reply"
       },
       {
@@ -2609,7 +2563,7 @@
         "id": "interaction_modal.title.reblog"
       },
       {
-        "defaultMessage": "With an account on penpen, you can boost this post to share it with your own followers.",
+        "defaultMessage": "With an account on Penpen, you can boost this post to share it with your own followers.",
         "id": "interaction_modal.description.reblog"
       },
       {
@@ -2617,7 +2571,7 @@
         "id": "interaction_modal.title.favourite"
       },
       {
-        "defaultMessage": "With an account on penpen, you can favourite this post to let the author know you appreciate it and save it for later.",
+        "defaultMessage": "With an account on Penpen, you can favourite this post to let the author know you appreciate it and save it for later.",
         "id": "interaction_modal.description.favourite"
       },
       {
@@ -2625,7 +2579,7 @@
         "id": "interaction_modal.title.follow"
       },
       {
-        "defaultMessage": "With an account on penpen, you can follow {name} to receive their posts in your home feed.",
+        "defaultMessage": "With an account on Penpen, you can follow {name} to receive their posts in your home feed.",
         "id": "interaction_modal.description.follow"
       },
       {
@@ -2633,7 +2587,7 @@
         "id": "sign_in_banner.create_account"
       },
       {
-        "defaultMessage": "Since penpen is decentralized, you can use your existing account hosted by another penpen server or compatible platform if you don't have an account on this one.",
+        "defaultMessage": "Since Penpen is decentralized, you can use your existing account hosted by another Penpen server or compatible platform if you don't have an account on this one.",
         "id": "interaction_modal.preamble"
       },
       {
@@ -2649,11 +2603,11 @@
         "id": "interaction_modal.on_another_server"
       },
       {
-        "defaultMessage": "Copy and paste this URL into the search field of your favourite penpen app or the web interface of your penpen server.",
+        "defaultMessage": "Copy and paste this URL into the search field of your favourite Penpen app or the web interface of your Penpen server.",
         "id": "interaction_modal.other_server_instructions"
       }
     ],
-    "path": "app/javascript/mastodon/features/interaction_modal/index.json"
+    "path": "app/javascript/Penpen/features/interaction_modal/index.json"
   },
   {
     "descriptors": [
@@ -2794,7 +2748,7 @@
         "id": "keyboard_shortcuts.legend"
       }
     ],
-    "path": "app/javascript/mastodon/features/keyboard_shortcuts/index.json"
+    "path": "app/javascript/Penpen/features/keyboard_shortcuts/index.json"
   },
   {
     "descriptors": [
@@ -2807,7 +2761,7 @@
         "id": "lists.account.add"
       }
     ],
-    "path": "app/javascript/mastodon/features/list_adder/components/list.json"
+    "path": "app/javascript/Penpen/features/list_adder/components/list.json"
   },
   {
     "descriptors": [
@@ -2820,7 +2774,7 @@
         "id": "lists.account.add"
       }
     ],
-    "path": "app/javascript/mastodon/features/list_editor/components/account.json"
+    "path": "app/javascript/Penpen/features/list_editor/components/account.json"
   },
   {
     "descriptors": [
@@ -2829,7 +2783,7 @@
         "id": "lists.edit.submit"
       }
     ],
-    "path": "app/javascript/mastodon/features/list_editor/components/edit_list_form.json"
+    "path": "app/javascript/Penpen/features/list_editor/components/edit_list_form.json"
   },
   {
     "descriptors": [
@@ -2838,7 +2792,7 @@
         "id": "lists.search"
       }
     ],
-    "path": "app/javascript/mastodon/features/list_editor/components/search.json"
+    "path": "app/javascript/Penpen/features/list_editor/components/search.json"
   },
   {
     "descriptors": [
@@ -2879,7 +2833,7 @@
         "id": "empty_column.list"
       }
     ],
-    "path": "app/javascript/mastodon/features/list_timeline/index.json"
+    "path": "app/javascript/Penpen/features/list_timeline/index.json"
   },
   {
     "descriptors": [
@@ -2892,7 +2846,7 @@
         "id": "lists.new.create"
       }
     ],
-    "path": "app/javascript/mastodon/features/lists/components/new_list_form.json"
+    "path": "app/javascript/Penpen/features/lists/components/new_list_form.json"
   },
   {
     "descriptors": [
@@ -2909,7 +2863,7 @@
         "id": "empty_column.lists"
       }
     ],
-    "path": "app/javascript/mastodon/features/lists/index.json"
+    "path": "app/javascript/Penpen/features/lists/index.json"
   },
   {
     "descriptors": [
@@ -2922,7 +2876,7 @@
         "id": "empty_column.mutes"
       }
     ],
-    "path": "app/javascript/mastodon/features/mutes/index.json"
+    "path": "app/javascript/Penpen/features/mutes/index.json"
   },
   {
     "descriptors": [
@@ -2931,7 +2885,7 @@
         "id": "notifications.clear"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/clear_column_button.json"
+    "path": "app/javascript/Penpen/features/notifications/components/clear_column_button.json"
   },
   {
     "descriptors": [
@@ -3020,7 +2974,7 @@
         "id": "notifications.column_settings.admin.report"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/column_settings.json"
+    "path": "app/javascript/Penpen/features/notifications/components/column_settings.json"
   },
   {
     "descriptors": [
@@ -3053,7 +3007,7 @@
         "id": "notifications.filter.all"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/filter_bar.json"
+    "path": "app/javascript/Penpen/features/notifications/components/filter_bar.json"
   },
   {
     "descriptors": [
@@ -3066,7 +3020,7 @@
         "id": "follow_request.reject"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/follow_request.json"
+    "path": "app/javascript/Penpen/features/notifications/components/follow_request.json"
   },
   {
     "descriptors": [
@@ -3075,7 +3029,7 @@
         "id": "notifications.grant_permission"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/grant_permission_button.json"
+    "path": "app/javascript/Penpen/features/notifications/components/grant_permission_button.json"
   },
   {
     "descriptors": [
@@ -3120,7 +3074,7 @@
         "id": "notification.follow_request"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/notification.json"
+    "path": "app/javascript/Penpen/features/notifications/components/notification.json"
   },
   {
     "descriptors": [
@@ -3133,7 +3087,7 @@
         "id": "notifications_permission_banner.title"
       },
       {
-        "defaultMessage": "To receive notifications when penpen isn't open, enable desktop notifications. You can control precisely which types of interactions generate desktop notifications through the {icon} button above once they're enabled.",
+        "defaultMessage": "To receive notifications when Penpen isn't open, enable desktop notifications. You can control precisely which types of interactions generate desktop notifications through the {icon} button above once they're enabled.",
         "id": "notifications_permission_banner.how_to_control"
       },
       {
@@ -3141,7 +3095,7 @@
         "id": "notifications_permission_banner.enable"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/notifications_permission_banner.json"
+    "path": "app/javascript/Penpen/features/notifications/components/notifications_permission_banner.json"
   },
   {
     "descriptors": [
@@ -3166,7 +3120,7 @@
         "id": "report_notification.attached_statuses"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/components/report.json"
+    "path": "app/javascript/Penpen/features/notifications/components/report.json"
   },
   {
     "descriptors": [
@@ -3183,7 +3137,7 @@
         "id": "notifications.permission_denied_alert"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/containers/column_settings_container.json"
+    "path": "app/javascript/Penpen/features/notifications/containers/column_settings_container.json"
   },
   {
     "descriptors": [
@@ -3200,7 +3154,7 @@
         "id": "empty_column.notifications"
       }
     ],
-    "path": "app/javascript/mastodon/features/notifications/index.json"
+    "path": "app/javascript/Penpen/features/notifications/index.json"
   },
   {
     "descriptors": [
@@ -3245,7 +3199,7 @@
         "id": "status.open"
       }
     ],
-    "path": "app/javascript/mastodon/features/picture_in_picture/components/footer.json"
+    "path": "app/javascript/Penpen/features/picture_in_picture/components/footer.json"
   },
   {
     "descriptors": [
@@ -3254,7 +3208,7 @@
         "id": "lightbox.close"
       }
     ],
-    "path": "app/javascript/mastodon/features/picture_in_picture/components/header.json"
+    "path": "app/javascript/Penpen/features/picture_in_picture/components/header.json"
   },
   {
     "descriptors": [
@@ -3263,7 +3217,7 @@
         "id": "column.pins"
       }
     ],
-    "path": "app/javascript/mastodon/features/pinned_statuses/index.json"
+    "path": "app/javascript/Penpen/features/pinned_statuses/index.json"
   },
   {
     "descriptors": [
@@ -3276,7 +3230,7 @@
         "id": "privacy_policy.last_updated"
       }
     ],
-    "path": "app/javascript/mastodon/features/privacy_policy/index.json"
+    "path": "app/javascript/Penpen/features/privacy_policy/index.json"
   },
   {
     "descriptors": [
@@ -3289,7 +3243,7 @@
         "id": "community.column_settings.remote_only"
       }
     ],
-    "path": "app/javascript/mastodon/features/public_timeline/components/column_settings.json"
+    "path": "app/javascript/Penpen/features/public_timeline/components/column_settings.json"
   },
   {
     "descriptors": [
@@ -3306,7 +3260,7 @@
         "id": "empty_column.public"
       }
     ],
-    "path": "app/javascript/mastodon/features/public_timeline/index.json"
+    "path": "app/javascript/Penpen/features/public_timeline/index.json"
   },
   {
     "descriptors": [
@@ -3319,7 +3273,7 @@
         "id": "status.reblogs.empty"
       }
     ],
-    "path": "app/javascript/mastodon/features/reblogs/index.json"
+    "path": "app/javascript/Penpen/features/reblogs/index.json"
   },
   {
     "descriptors": [
@@ -3376,7 +3330,7 @@
         "id": "report.next"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/category.json"
+    "path": "app/javascript/Penpen/features/report/category.json"
   },
   {
     "descriptors": [
@@ -3401,7 +3355,7 @@
         "id": "report.submit"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/comment.json"
+    "path": "app/javascript/Penpen/features/report/comment.json"
   },
   {
     "descriptors": [
@@ -3422,7 +3376,7 @@
         "id": "privacy.direct.short"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/components/status_check_box.json"
+    "path": "app/javascript/Penpen/features/report/components/status_check_box.json"
   },
   {
     "descriptors": [
@@ -3439,7 +3393,7 @@
         "id": "report.next"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/rules.json"
+    "path": "app/javascript/Penpen/features/report/rules.json"
   },
   {
     "descriptors": [
@@ -3456,7 +3410,7 @@
         "id": "report.next"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/statuses.json"
+    "path": "app/javascript/Penpen/features/report/statuses.json"
   },
   {
     "descriptors": [
@@ -3473,7 +3427,7 @@
         "id": "report.thanks.take_action_actionable"
       },
       {
-        "defaultMessage": "Here are your options for controlling what you see on penpen:",
+        "defaultMessage": "Here are your options for controlling what you see on Penpen:",
         "id": "report.thanks.take_action"
       },
       {
@@ -3525,7 +3479,7 @@
         "id": "report.close"
       }
     ],
-    "path": "app/javascript/mastodon/features/report/thanks.json"
+    "path": "app/javascript/Penpen/features/report/thanks.json"
   },
   {
     "descriptors": [
@@ -3626,10 +3580,6 @@
         "id": "status.admin_status"
       },
       {
-        "defaultMessage": "Open moderation interface for {domain}",
-        "id": "status.admin_domain"
-      },
-      {
         "defaultMessage": "Copy link to status",
         "id": "status.copy"
       },
@@ -3654,7 +3604,7 @@
         "id": "account.open_original_page"
       }
     ],
-    "path": "app/javascript/mastodon/features/status/components/action_bar.json"
+    "path": "app/javascript/Penpen/features/status/components/action_bar.json"
   },
   {
     "descriptors": [
@@ -3663,7 +3613,7 @@
         "id": "status.sensitive_warning"
       }
     ],
-    "path": "app/javascript/mastodon/features/status/components/card.json"
+    "path": "app/javascript/Penpen/features/status/components/card.json"
   },
   {
     "descriptors": [
@@ -3684,7 +3634,7 @@
         "id": "privacy.direct.short"
       }
     ],
-    "path": "app/javascript/mastodon/features/status/components/detailed_status.json"
+    "path": "app/javascript/Penpen/features/status/components/detailed_status.json"
   },
   {
     "descriptors": [
@@ -3733,7 +3683,7 @@
         "id": "confirmations.domain_block.message"
       }
     ],
-    "path": "app/javascript/mastodon/features/status/index.json"
+    "path": "app/javascript/Penpen/features/status/index.json"
   },
   {
     "descriptors": [
@@ -3754,7 +3704,7 @@
         "id": "subscribed_languages.save"
       }
     ],
-    "path": "app/javascript/mastodon/features/subscribed_languages_modal/index.json"
+    "path": "app/javascript/Penpen/features/subscribed_languages_modal/index.json"
   },
   {
     "descriptors": [
@@ -3775,7 +3725,7 @@
         "id": "confirmations.block.confirm"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/block_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/block_modal.json"
   },
   {
     "descriptors": [
@@ -3808,7 +3758,7 @@
         "id": "boost_modal.combo"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/boost_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/boost_modal.json"
   },
   {
     "descriptors": [
@@ -3853,7 +3803,7 @@
         "id": "bundle_column_error.return"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/bundle_column_error.json"
+    "path": "app/javascript/Penpen/features/ui/components/bundle_column_error.json"
   },
   {
     "descriptors": [
@@ -3870,7 +3820,7 @@
         "id": "bundle_modal_error.close"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/bundle_modal_error.json"
+    "path": "app/javascript/Penpen/features/ui/components/bundle_modal_error.json"
   },
   {
     "descriptors": [
@@ -3883,7 +3833,7 @@
         "id": "status.history.edited"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/compare_history_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/compare_history_modal.json"
   },
   {
     "descriptors": [
@@ -3892,7 +3842,7 @@
         "id": "confirmation_modal.cancel"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/confirmation_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/confirmation_modal.json"
   },
   {
     "descriptors": [
@@ -3917,7 +3867,7 @@
         "id": "disabled_account_banner.account_settings"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/disabled_account_banner.json"
+    "path": "app/javascript/Penpen/features/ui/components/disabled_account_banner.json"
   },
   {
     "descriptors": [
@@ -3938,7 +3888,7 @@
         "id": "embed.preview"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/embed_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/embed_modal.json"
   },
   {
     "descriptors": [
@@ -3951,7 +3901,7 @@
         "id": "filter_modal.title.status"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/filter_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/filter_modal.json"
   },
   {
     "descriptors": [
@@ -3984,15 +3934,15 @@
         "id": "confirmations.discard_edit_media.confirm"
       },
       {
-        "defaultMessage": "Describe for people who are hard of hearing",
+        "defaultMessage": "Describe for people with hearing loss",
         "id": "upload_form.audio_description"
       },
       {
-        "defaultMessage": "Describe for people who are deaf, hard of hearing, blind or have low vision",
+        "defaultMessage": "Describe for people with hearing loss or visual impairment",
         "id": "upload_form.video_description"
       },
       {
-        "defaultMessage": "Describe for people who are blind or have low vision",
+        "defaultMessage": "Describe for the visually impaired",
         "id": "upload_form.description"
       },
       {
@@ -4024,7 +3974,7 @@
         "id": "upload_modal.preview_label"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/focal_point_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/focal_point_modal.json"
   },
   {
     "descriptors": [
@@ -4033,24 +3983,24 @@
         "id": "navigation_bar.follow_requests"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/follow_requests_column_link.json"
+    "path": "app/javascript/Penpen/features/ui/components/follow_requests_column_link.json"
   },
   {
     "descriptors": [
       {
         "defaultMessage": "Publish",
-        "id": "compose_form.publish_form"
-      },
-      {
-        "defaultMessage": "Create account",
-        "id": "sign_in_banner.create_account"
+        "id": "compose_form.publish"
       },
       {
         "defaultMessage": "Sign in",
         "id": "sign_in_banner.sign_in"
+      },
+      {
+        "defaultMessage": "Create account",
+        "id": "sign_in_banner.create_account"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/header.json"
+    "path": "app/javascript/Penpen/features/ui/components/header.json"
   },
   {
     "descriptors": [
@@ -4059,7 +4009,7 @@
         "id": "lightbox.close"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/image_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/image_modal.json"
   },
   {
     "descriptors": [
@@ -4074,10 +4024,6 @@
       {
         "defaultMessage": "About",
         "id": "footer.about"
-      },
-      {
-        "defaultMessage": "Status",
-        "id": "footer.status"
       },
       {
         "defaultMessage": "Invite people",
@@ -4104,7 +4050,7 @@
         "id": "footer.source_code"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/link_footer.json"
+    "path": "app/javascript/Penpen/features/ui/components/link_footer.json"
   },
   {
     "descriptors": [
@@ -4121,7 +4067,7 @@
         "id": "lightbox.next"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/media_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/media_modal.json"
   },
   {
     "descriptors": [
@@ -4166,7 +4112,7 @@
         "id": "confirmations.mute.confirm"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/mute_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/mute_modal.json"
   },
   {
     "descriptors": [
@@ -4223,7 +4169,7 @@
         "id": "navigation_bar.search"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/navigation_panel.json"
+    "path": "app/javascript/Penpen/features/ui/components/navigation_panel.json"
   },
   {
     "descriptors": [
@@ -4236,7 +4182,7 @@
         "id": "report.target"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/report_modal.json"
+    "path": "app/javascript/Penpen/features/ui/components/report_modal.json"
   },
   {
     "descriptors": [
@@ -4245,7 +4191,7 @@
         "id": "sign_in_banner.create_account"
       },
       {
-        "defaultMessage": "Sign in to follow profiles or hashtags, favourite, share and reply to posts. You can also interact from your account on a different server.",
+        "defaultMessage": "Sign in to follow profiles or hashtags, favourite, share and reply to posts, or interact from your account on a different server.",
         "id": "sign_in_banner.text"
       },
       {
@@ -4253,7 +4199,7 @@
         "id": "sign_in_banner.sign_in"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/sign_in_banner.json"
+    "path": "app/javascript/Penpen/features/ui/components/sign_in_banner.json"
   },
   {
     "descriptors": [
@@ -4262,7 +4208,7 @@
         "id": "upload_area.title"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/upload_area.json"
+    "path": "app/javascript/Penpen/features/ui/components/upload_area.json"
   },
   {
     "descriptors": [
@@ -4275,16 +4221,16 @@
         "id": "lightbox.expand"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/components/zoomable_image.json"
+    "path": "app/javascript/Penpen/features/ui/components/zoomable_image.json"
   },
   {
     "descriptors": [
       {
-        "defaultMessage": "Your draft will be lost if you leave penpen.",
+        "defaultMessage": "Your draft will be lost if you leave Penpen.",
         "id": "ui.beforeunload"
       }
     ],
-    "path": "app/javascript/mastodon/features/ui/index.json"
+    "path": "app/javascript/Penpen/features/ui/index.json"
   },
   {
     "descriptors": [
@@ -4333,6 +4279,6 @@
         "id": "status.media_hidden"
       }
     ],
-    "path": "app/javascript/mastodon/features/video/index.json"
+    "path": "app/javascript/Penpen/features/video/index.json"
   }
 ]

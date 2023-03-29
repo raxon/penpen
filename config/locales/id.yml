@@ -1,10 +1,10 @@
 ---
 id:
   about:
-    about_mastodon_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan penpen!'
+    about_Penpen_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan Penpen!'
     contact_missing: Belum ditetapkan
     contact_unavailable: Tidak Tersedia
-    hosted_on: penpen dihosting di %{domain}
+    hosted_on: Penpen dihosting di %{domain}
     title: Tentang
   accounts:
     follow: Ikuti
@@ -36,14 +36,14 @@ id:
       avatar: Avatar
       by_domain: Domian
       change_email:
-        changed_msg: Email berhasil diubah!
+        changed_msg: כתובת דוא"ל שונתה בהצלחה !
         current_email: Email saat ini
         label: Ganti email
         new_email: Email baru
         submit: Ganti email
         title: Ganti email untuk %{username}
       change_role:
-        changed_msg: Peran berhasil diubah!
+        changed_msg: תפקיד שונה בהצלחה !
         label: Ubah peran
         no_role: Tidak ada peran
         title: Ganti peran untuk %{username}
@@ -113,8 +113,6 @@ id:
       redownloaded_msg: Berhasil menyegarkan profil %{username} dari asal
       reject: Tolak
       rejected_msg: Berhasil menolak permintaan pendaftaran %{username}
-      remote_suspension_irreversible: Data akun ini telah dihapus permanen.
-      remote_suspension_reversible_hint_html: Akun ini telah ditangguhkan di server mereka, dan data akan dihapus total pada %{date}. Sebelum itu, server jarak jauh dapat memulihkan akun ini tanpa efek samping. Jika Anda ingin menghapus semua data akun langsung, Anda dapat mengikuti bawah ini.
       remove_avatar: Hapus avatar
       remove_header: Hapus header
       removed_avatar_msg: Berhasil menghapus gambar avatar %{username}
@@ -368,8 +366,6 @@ id:
       add_new: Daftar putihkan domain
       created_msg: Domain berhasil masuk daftar putih
       destroyed_msg: Domain dihapus dari daftar putih
-      export: Ekspor
-      import: Impor
       undo: Hapus dari daftar putih
     domain_blocks:
       add_new: Tambah
@@ -379,19 +375,15 @@ id:
       edit: Edit blok domain
       existing_domain_block: Anda sudah menerapkan batasan ketat terhadap %{name}.
       existing_domain_block_html: Anda telah menerapkan batasan yang lebih ketat pada %{name}, Anda harus <a href="%{unblock_url}">membuka blokirnya</a> lebih dulu.
-      export: Ekspor
-      import: Impor
       new:
         create: Buat pemblokiran
         hint: Pemblokiran domain tidak akan menghentikan pembuatan akun dalam database, tapi kami akan memberikan moderasi otomatis pada akun-akun tersebut.
         severity:
-          desc_html: "<strong>Batas</strong> akan membuat postingan dari akun yang ada di domain ini terlihat oleh siapa saja yang tidak mengikuti mereka. <strong>Tangguhkan</strong> akan menghapus semua konten, media, dan data profil dari akun domain server Anda. Gunakan <strong>Catatan</strong> jika Anda ingin menolak berkas media."
+          desc_html: "<strong>Pendiaman</strong> akan membuat semua postingan tidak dapat dilihat oleh semua orang yang tidak mengikutinya. <strong>Suspen</strong> akan menghapus semua konten, media, dan profil dari akun yang bersangkutan."
           noop: Tidak ada
-          silence: Batas
+          silence: Pendiaman
           suspend: Suspen
         title: Pemblokiran domain baru
-      no_domain_block_selected: Tidak ada blok domain yang diubah karena tidak ada yang dipilih
-      not_permitted: Anda tidak diperbolehkan untuk melakukan aksi ini
       obfuscate: Nama domain kabur
       obfuscate_hint: Mengaburkan nama domain sebagian di daftar jika pengiklanan batasan daftar domain diaktifkan
       private_comment: Komentar pribadi
@@ -422,21 +414,6 @@ id:
       resolved_dns_records_hint_html: Pembaruan nama domain mengikuti domain MX, yang bertanggung jawab menerima email. Memblokir domain MX akan memblokir pendaftaran dari alamat email apapun yang menggunakan domain MX sama, meskipun nama domainnya beda. <strong>Hati-hati untuk tidak memblokir layanan email besar.</strong>
       resolved_through_html: Diperbarui melalui %{domain}
       title: Domain email terblokir
-    export_domain_allows:
-      new:
-        title: Impor izin domain
-      no_file: Tidak ada file dipilih
-    export_domain_blocks:
-      import:
-        description_html: Anda akan mengimpor daftar blok domain. Harap tinjau daftar ini dengan sangat hati-hati, terutama jika Anda sendiri tidak menulis daftar ini.
-        existing_relationships_warning: Hubungan tindak lanjut yang ada
-        private_comment_description_html: 'Untuk membantu Anda melacak asal blok yang diimpor, blok yang diimpor akan dibuat dengan komentar pribadi berikut: <q>%{comment}</q>'
-        private_comment_template: Diimpor dari %{source} pada %{date}
-        title: Impor blok domain
-      invalid_domain_block: 'Satu atau lebih blokir domain dilewati karena kesalahan berikut: %{error}'
-      new:
-        title: Impor blok domain
-      no_file: Tidak ada file dipilih
     follow_recommendations:
       description_html: <strong>"Rekomendasi untuk diikuti" membantu pengguna baru untuk secara cepat menemukan konten yang menarik</strong>. Ketika pengguna belum cukup berinteraksi dengan lainnya sehingga belum memunculkan rekomendasi, akun-akun ini akan direkomendasikan. Mereka dihitung ulang secara harian dari campuran akun-akun dengan keterlibatan tertinggi baru-baru ini dan jumlah pengikut lokal tertinggi untuk bahasa tertentu.
       language: Untuk bahasa
@@ -553,6 +530,7 @@ id:
     report_notes:
       created_msg: Catatan laporan berhasil dibuat!
       destroyed_msg: Catatan laporan berhasil dihapus!
+      today_at: Hari ini pada %{time}
     reports:
       account:
         notes:
@@ -564,6 +542,8 @@ id:
         mark_as_sensitive_description_html: Media di dalam kiriman terlapor akan ditandai sebagai sensitif dan hukuman akan direkam untuk membantu menangani pelanggaran dari akun yang sama di masa mendatang.
         other_description_html: Lihat opsi lain untuk mengendalikan perilaku akun dan menyesuaikan komunikasi ke akun yang dilaporkan.
         resolve_description_html: Tidak ada tindakan untuk akun yang dilaporkan, tidak ada peringatan yang direkam, dan laporan akan ditutup.
+        silence_description_html: Profil hanya dapat terlihat oleh pengguna yang telah mengikuti atau melihatnya secara manual, yang sangat membatasi jangkauannya. Selalu dapat dipulihkan kembali.
+        suspend_description_html: Profil dan semua kontennya tidak dapat diakses sampai ia terhapus. Interaksi dengan akun tersebut tidak dimungkinkan. Dapat dipulihkan dalam waktu 30 hari.
       actions_description_html: Memutuskan tindakan yang tepat untuk menyelesaikan laporan ini. Jika Anda memutuskan tindakan hukuman kepada akun terlapor, notifikasi email akan dikirim ke mereka, kecuali saat kategori <strong>Spam</strong> dipilih.
       add_to_report: Tambahkan lebih banyak untuk lapor
       are_you_sure: Apakah Anda yakin?
@@ -615,12 +595,11 @@ id:
         other: "%{count} pengguna"
       categories:
         administration: Administrasi
-        devops: DevOps
         invites: Undangan
         moderation: Moderasi
         special: Khusus
       delete: Hapus
-      description_html: Dengan <strong>peran pengguna</strong>, Anda dapat mengubah fungsi dan area penpen apa pengguna Anda dapat mengakses.
+      description_html: Dengan <strong>peran pengguna</strong>, Anda dapat mengubah fungsi dan area Penpen apa pengguna Anda dapat mengakses.
       edit: ערכי את התפקיד של '%{name}'
       everyone: Izin bawaan
       everyone_full_description_html: Ini adalah <strong>peran dasaran</strong> yang memengaruhi <strong>semua pengguna</strong>, bahkan tanpa yang memiliki sebuah peran yang diberikan. Semua peran lainnya mendapatkan izin dari ini.
@@ -665,7 +644,6 @@ id:
         view_audit_log_description: Memungkinkan pengguna untuk melihat riwayat tindakan administratif di server
         view_dashboard: Lihat Dasbor
         view_dashboard_description: Memungkinkan pengguna untuk mengakses dasbor dan berbagai metrik
-        view_devops: DevOps
         view_devops_description: Memungkinkan pengguna untuk mengakses dasbor Sidekiq dan pgHero
       title: Peran
     rules:
@@ -682,20 +660,17 @@ id:
         rules_hint: Ada area yang khusus untuk peraturan yang pengguna Anda seharusnya tahu.
         title: Tentang
       appearance:
-        preamble: Ubah antarmuka web penpen.
+        preamble: Ubah antarmuka web Penpen.
         title: Tampilan
       branding:
-        preamble: Merek server Anda membedakannya dari server lain dalam jaringan. Informasi ini dapat ditampilkan dalam berbagai lingkungan, seperti antarmuka web penpen, aplikasi asli, dalam tampilan tautan di situs web lain dan dalam aplikasi perpesanan, dan lain-lain. Untuk alasan ini, buat informasi ini jelas, pendek, dan tidak bertele-tele.
+        preamble: Merek server Anda membedakannya dari server lain dalam jaringan. Informasi ini dapat ditampilkan dalam berbagai lingkungan, seperti antarmuka web Penpen, aplikasi asli, dalam tampilan tautan di situs web lain dan dalam aplikasi perpesanan, dan lain-lain. Untuk alasan ini, buat informasi ini jelas, pendek, dan tidak bertele-tele.
         title: Merek
       content_retention:
-        preamble: Atur bagaimana konten yang dibuat oleh pengguna disimpan di penpen.
+        preamble: Atur bagaimana konten yang dibuat oleh pengguna disimpan di Penpen.
         title: Retensi konten
-      default_noindex:
-        desc_html: Memengaruhi semua pengguna yang belum mengubah pengaturan ini sendiri
-        title: Keluarkan pengguna dari pengindeksan mesin telusur secara bawaan
       discovery:
         follow_recommendations: Ikuti rekomendasi
-        preamble: Menampilkan konten menarik penting dalam memandu pengguna baru yang mungkin tidak tahu siapa pun di penpen. Atur bagaimana berbagai fitur penemuan bekerja di server Anda.
+        preamble: Menampilkan konten menarik penting dalam memandu pengguna baru yang mungkin tidak tahu siapa pun di Penpen. Atur bagaimana berbagai fitur penemuan bekerja di server Anda.
         profile_directory: Direktori profil
         public_timelines: Linimasa publik
         title: Penemuan
@@ -838,7 +813,7 @@ id:
     webhooks:
       add_new: Tambah titik akhir
       delete: Hapus
-      description_html: Sebuah <strong>webhook</strong> memungkinkan penpen untuk mengirim <strong>notifikasi dalam waktu nyata</strong> tentang peristiwa yang dipilih ke aplikasi Anda sendiri, sehingga aplikasi Anda dapat <strong>memicu reaksi secara otomatis</strong>.
+      description_html: Sebuah <strong>webhook</strong> memungkinkan Penpen untuk mengirim <strong>notifikasi dalam waktu nyata</strong> tentang peristiwa yang dipilih ke aplikasi Anda sendiri, sehingga aplikasi Anda dapat <strong>memicu reaksi secara otomatis</strong>.
       disable: Matikan
       disabled: Nonaktif
       edit: Edit titik akhir
@@ -899,8 +874,8 @@ id:
     confirmation_dialogs: Dialog konfirmasi
     discovery: Jelajah
     localization:
-      body: penpen diterjemahkan oleh sukarelawan.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Penpen diterjemahkan oleh sukarelawan.
+      guide_link: https://crowdin.com/project/Penpen
       guide_link_text: Siapa saja bisa berkontribusi.
     sensitive_content: Konten sensitif
     toot_layout: Tata letak kiriman
@@ -919,14 +894,14 @@ id:
     warning: Hati-hati dengan data ini. Jangan bagikan kepada siapapun!
     your_token: Token akses Anda
   auth:
-    apply_for_account: Permintaan akun
+    apply_for_account: Masuk ke daftar tunggu
     change_password: Kata sandi
     delete_account: Hapus akun
     delete_account_html: Jika Anda ingin menghapus akun Anda, Anda dapat <a href="%{path}">memproses ini</a>. Anda akan dikonfirmasi.
     description:
-      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server penpen ini!"
-      prefix_sign_up: Daftar ke penpen hari ini!
-      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server penpen mana pun dan lainnya!
+      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server Penpen ini!"
+      prefix_sign_up: Daftar ke Penpen hari ini!
+      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server Penpen mana pun dan lainnya!
     didnt_get_confirmation: Tidak menerima petunjuk konfirmasi?
     dont_have_your_security_key: Tidak memiliki kunci keamanan?
     forgot_password: Lupa kata sandi?
@@ -956,10 +931,8 @@ id:
       email_below_hint_html: Jika alamat email di bawah tidak benar, Anda dapat menggantinya di sini dan menerima email konfirmasi baru.
       email_settings_hint_html: Email konfirmasi telah dikirim ke %{email}. Jika alamat email tidak benar, Anda dapat mengubahnya di pengaturan akun.
       title: Atur
-    sign_in:
-      title: Masuk ke %{domain}
     sign_up:
-      preamble: Dengan sebuah akun di server penpen ini, Anda akan dapat mengikuti orang lain dalam jaringan, di mana pun akun mereka berada.
+      preamble: Dengan sebuah akun di server Penpen ini, Anda akan dapat mengikuti orang lain dalam jaringan, di mana pun akun mereka berada.
       title: Mari kita siapkan Anda di %{domain}.
     status:
       account_status: Status akun
@@ -1072,7 +1045,7 @@ id:
       content: Maaf, ada sesuatu yang salah pada sistem kami.
       title: Halaman ini tidak benar
     '503': Halaman ini tidak dapat ditampilkan karena kegagalan server sementara.
-    noscript_html: Untuk menggunakan aplikasi web penpen, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> penpen untuk platform Anda.
+    noscript_html: Untuk menggunakan aplikasi web Penpen, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> Penpen untuk platform Anda.
   existing_username_validator:
     not_found: tidak dapat menemukan pengguna lokal dengan nama pengguna tersebut
     not_found_multiple: tidak dapat menemukan %{usernames}
@@ -1093,6 +1066,8 @@ id:
     storage: Penyimpanan media
   featured_tags:
     add_new: Tambah baru
+    errors:
+      limit: Anda sudah menampilkan tagar unggulan dengan jumlah maksimum
     hint_html: "<strong>Apa itu tagar yang diunggulkan?</strong> Mereka ditampilkan secara mencolok di profil publik Anda dan mengizinkan orang-orang untuk menjelajahi kiriman publik khususnya yang ada di bawah tagar tersebut. Mereka adalah alat yang bagus untuk melacak pekerjaan kreatif atau proyek jangka panjang."
   filters:
     contexts:
@@ -1133,6 +1108,8 @@ id:
       index:
         hint: Saringan ini diterapkan ke beberapa kiriman individu tanpa memengaruhi oleh kriteria lain. Anda dapat menambahkan lebih banyak kiriman ke saringan ini dari antarmuka web.
         title: Kiriman yang disaring
+  footer:
+    trending_now: Sedang tren
   generic:
     all: Semua
     all_items_on_page_selected_html:
@@ -1151,9 +1128,10 @@ id:
     today: hari ini
     validation_errors:
       other: Ada yang belum benar! Silakan tinjau %{count} kesalahan di bawah ini
+  html_validator:
+    invalid_markup: 'berisi markup HTML yang tidak valid: %{error}'
   imports:
     errors:
-      invalid_csv_file: 'Berkas CVS tidak sah. Kesalahan: %{error}'
       over_rows_processing_limit: berisi lebih dari %{count} baris
     modes:
       merge: Gabung
@@ -1190,6 +1168,9 @@ id:
       expires_at: Kedaluwarsa
       uses: Penggunaan
     title: Undang orang
+  lists:
+    errors:
+      limit: Daftar Anda telah mencapai jumlah maksimum
   login_activities:
     authentication_methods:
       otp: aplikasi otentikasi dua-faktor
@@ -1364,7 +1345,6 @@ id:
     browser: Peramban
     browsers:
       alipay: Alipay
-      blackberry: BlackBerry
       chrome: Chrome
       edge: Microsoft Edge
       electron: Electron
@@ -1378,17 +1358,14 @@ id:
       phantom_js: PhantomJS
       qq: QQ Browser
       safari: Safari
-      uc_browser: UC Browser
       weibo: Weibo
     current_session: Sesi sekarang
     description: "%{browser} di %{platform}"
-    explanation: Ini peramban yang sedang dalam posisi masuk akun penpen Anda.
+    explanation: Ini peramban yang sedang dalam posisi masuk akun Penpen Anda.
     ip: IP
     platforms:
       adobe_air: Adobe Air
       android: Android
-      blackberry: BlackBerry
-      chrome_os: ChromeOS
       firefox_os: Firefox OS
       ios: iOS
       linux: Linux
@@ -1407,7 +1384,7 @@ id:
     aliases: Alias akun
     appearance: Tampilan
     authorized_apps: Apl yang diizinkan
-    back: Kembali ke penpen
+    back: Kembali ke Penpen
     delete: Penghapusan akun
     development: Pengembangan
     edit_profile: Ubah profil
@@ -1500,6 +1477,7 @@ id:
       '7889238': 3 bulan
     min_age_label: Batas usia
     min_favs: Simpan kiriman favorit lebih dari
+    min_favs_hint: Tidak menghapus kiriman Anda yang mendapatkan sekian favorit. Kosongkan bila ingin menghapus kiriman tanpa peduli jumlah favoritnya
     min_reblogs: Simpan kiriman yang di-boost lebih dari
     min_reblogs_hint: Tidak menghapus kiriman Anda yang di-boost lebih dari sekian kali. Kosongkan bila ingin menghapus kiriman tanpa peduli jumlah boost-nya
   stream_entries:
@@ -1512,9 +1490,9 @@ id:
   tags:
     does_not_match_previous_name: tidak cocok dengan nama sebelumnya
   themes:
-    contrast: penpen (Kontras tinggi)
-    default: penpen (Gelap)
-    mastodon-light: penpen (Terang)
+    contrast: Penpen (Kontras tinggi)
+    default: Penpen (Gelap)
+    Penpen-light: Penpen (Terang)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1546,7 +1524,7 @@ id:
       subject: Banding Anda dari %{date} telah ditolak
       title: Banding ditolak
     backup_ready:
-      explanation: Cadangan penuh akun penpen Anda sudah dapat diunduh!
+      explanation: Cadangan penuh akun Penpen Anda sudah dapat diunduh!
       subject: Arsip Anda sudah siap diunduh
       title: Ambil arsip
     suspicious_sign_in:
@@ -1595,7 +1573,7 @@ id:
       final_step: 'Mulai mengirim! Bahkan tanpa pengikut, kiriman publik Anda dapat dilihat oleh orang lain, misalkan di linimasa lokal atau dalam tagar. Anda dapat memperkenalkan diri Anda dalam tagar #introductions.'
       full_handle: Penanganan penuh Anda
       full_handle_hint: Ini yang dapat Anda sampaikan kepada teman agar mereka dapat mengirim pesan atau mengikuti Anda dari server lain.
-      subject: Selamat datang di penpen
+      subject: Selamat datang di Penpen
       title: Selamat datang, %{name}!
   users:
     follow_limit_reached: Anda tidak dapat mengikuti lebih dari %{limit} orang
@@ -1604,7 +1582,7 @@ id:
     seamless_external_login: Anda masuk via layanan eksternal, sehingga pengaturan kata sandi dan email tidak tersedia.
     signed_in_as: 'Masuk sebagai:'
   verification:
-    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil penpen Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
+    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil Penpen Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
     verification: Verifikasi
   webauthn_credentials:
     add: Tambahkan kunci keamanan baru

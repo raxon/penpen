@@ -1,10 +1,10 @@
 ---
 sc:
   about:
-    about_mastodon_html: 'Sa rete sotziale de su benidore: sena publitzidade, sena vigilàntzia corporativa, disinnu èticu e detzentralizatzione! Sias mere de is datos tuos cun penpen!'
+    about_Penpen_html: 'Sa rete sotziale de su benidore: sena publitzidade, sena vigilàntzia corporativa, disinnu èticu e detzentralizatzione! Sias mere de is datos tuos cun Penpen!'
     contact_missing: No cunfiguradu
     contact_unavailable: No a disponimentu
-    hosted_on: penpen allogiadu in %{domain}
+    hosted_on: Penpen allogiadu in %{domain}
   accounts:
     follow: Sighi
     followers:
@@ -295,7 +295,9 @@ sc:
         create: Crea unu blocu
         hint: Su blocu de domìniu no at a impedire sa creatzione de contos noos in sa base de datos, ma ant a èssere aplicados in manera retroativa mètodos de moderatzione ispetzìficos subra custos contos.
         severity:
+          desc_html: "<strong>A sa muda</strong> at a pònnere is messàgios de custos contos comente invisìbiles a sa gente chi no ddos siat sighende. <strong>Sa suspensione</strong> at a cantzellare totu su cuntenutu de su contu, elementos multimediales e datos de profilu. Imprea <strong>Perunu</strong> si boles isceti refudare is archìvios multimediales."
           noop: Perunu
+          silence: A sa muda
           suspend: Suspensione
         title: Blocu de domìniu nou
       obfuscate: Cua su nòmine de domìniu
@@ -489,8 +491,8 @@ sc:
     confirmation_dialogs: Diàlogos de cunfirmatzione
     discovery: Iscoberta
     localization:
-      body: penpen est bortadu in manera voluntària.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Penpen est bortadu in manera voluntària.
+      guide_link: https://crowdin.com/project/Penpen
       guide_link_text: Chie si siat podet contribuire.
     sensitive_content: Cuntenutu sensìbile
     toot_layout: Dispositzione de is tuts
@@ -513,9 +515,9 @@ sc:
     delete_account: Cantzella su contu
     delete_account_html: Si boles cantzellare su contu, ddu podes <a href="%{path}">fàghere inoghe</a>. T'amus a dimandare una cunfirmatzione.
     description:
-      prefix_invited_by_user: "@%{name} t'at invitadu a custu serbidore de penpen!"
-      prefix_sign_up: Registra·ti oe a penpen!
-      suffix: Cun unu contu as a pòdere sighire gente, publicare e cuncambiare messàgios cun persones de cale si siat serbidore de penpen e àteru!
+      prefix_invited_by_user: "@%{name} t'at invitadu a custu serbidore de Penpen!"
+      prefix_sign_up: Registra·ti oe a Penpen!
+      suffix: Cun unu contu as a pòdere sighire gente, publicare e cuncambiare messàgios cun persones de cale si siat serbidore de Penpen e àteru!
     didnt_get_confirmation: No as retzidu su messàgiu de cunfirmatzione?
     dont_have_your_security_key: Non tenes sa crae de seguresa tua?
     forgot_password: Ti ses iscarèssidu de sa crae?
@@ -619,7 +621,7 @@ sc:
       content: Faddina dae s'ala nostra.
       title: Custa pàgina no est curreta
     '503': Faddina in sa trasmissione de sa pàgina pro more de una faddina temporànea de su serbidore.
-    noscript_html: Pro impreare s'aplicatzione web de penpen, ativa JavaScript. In alternativa, proa una de is <a href="%{apps_path}">aplicatziones nativas</a> pro penpen in sa prataforma tua.
+    noscript_html: Pro impreare s'aplicatzione web de Penpen, ativa JavaScript. In alternativa, proa una de is <a href="%{apps_path}">aplicatziones nativas</a> pro Penpen in sa prataforma tua.
   existing_username_validator:
     not_found: impossìbile agatare utentes locales cun cussu nòmine
     not_found_multiple: impossìbile agatare %{usernames}
@@ -640,6 +642,8 @@ sc:
     storage: Immagasinamentu
   featured_tags:
     add_new: Agiunghe noa
+    errors:
+      limit: As giai evidentziadu sa cantidade màssima de etichetas
     hint_html: "<strong>Ite sunt is etichetas in evidèntzia?</strong> Sunt ammustradas in evidèntzia in su profilu pùblicu tuo e permitint a sa gente de navigare is messàgios pùblicos tuos in cussas etichetas ispetzìficas. Sunt unu traste perfetu pro tènnere unu registru de òperas creativas o progetos longos."
   filters:
     contexts:
@@ -658,6 +662,8 @@ sc:
       title: Filtros
     new:
       title: Agiunghe unu filtru nou
+  footer:
+    trending_now: Est tendèntzia immoe
   generic:
     all: Totus
     changes_saved_msg: Modìficas sarvadas.
@@ -668,6 +674,8 @@ sc:
     validation_errors:
       one: Calicuna cosa ancora no est andende. Bide sa faddina in bàsciu
       other: Calicuna cosa ancora no est andende. Bide is %{count} faddinas in bàsciu
+  html_validator:
+    invalid_markup: 'cuntenet etichetas HTML non vàlidas: %{error}'
   imports:
     errors:
       over_rows_processing_limit: cuntenet prus de %{count} filas
@@ -707,6 +715,9 @@ sc:
       expires_at: Iscadit
       uses: Impreos
     title: Invita gente
+  lists:
+    errors:
+      limit: Cantidade màssima de listas cròmpida
   media_attachments:
     validations:
       images_and_video: Non si podet allegare unu vìdeu in una publicatzione chi cuntenet giai immàgines
@@ -867,7 +878,7 @@ sc:
       weibo: Weibo
     current_session: Sessione atuale
     description: "%{browser} de %{platform}"
-    explanation: Custos sunt is navigadores web de is chi ses intradu in su contu tuo de penpen.
+    explanation: Custos sunt is navigadores web de is chi ses intradu in su contu tuo de Penpen.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -889,7 +900,7 @@ sc:
     aliases: Nomìngios de su contu
     appearance: Aspetu
     authorized_apps: Aplicatziones autorizadas
-    back: Torra a penpen
+    back: Torra a Penpen
     delete: Eliminatzione de su contu
     development: Isvilupu
     edit_profile: Modìfica profilu
@@ -968,9 +979,9 @@ sc:
   tags:
     does_not_match_previous_name: non cointzidet cun su nòmine anteriore
   themes:
-    contrast: penpen (cuntrastu artu)
-    default: penpen (iscuru)
-    mastodon-light: penpen (craru)
+    contrast: Penpen (cuntrastu artu)
+    default: Penpen (iscuru)
+    Penpen-light: Penpen (craru)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -992,7 +1003,7 @@ sc:
     webauthn: Craes de seguresa
   user_mailer:
     backup_ready:
-      explanation: As pedidu una còpia de seguresa totale de su contu de penpen tuo. Immoe est pronta pro s'iscarrigamentu!
+      explanation: As pedidu una còpia de seguresa totale de su contu de Penpen tuo. Immoe est pronta pro s'iscarrigamentu!
       subject: S'archìviu tuo est prontu pro èssere iscarrigadu
       title: Collida dae s'archìviu
     warning:
@@ -1012,7 +1023,7 @@ sc:
       final_action: Cumintza a publicare
       full_handle: Su nòmine utente intreu tuo
       full_handle_hint: Custu est su chi dias nàrrere a is amistades tuas pro chi ti potzant imbiare messàgios o sighire dae un'àteru serbidore.
-      subject: Ti donamus su benebènnidu a penpen
+      subject: Ti donamus su benebènnidu a Penpen
       title: Ti donamus su benebènnidu, %{name}!
   users:
     follow_limit_reached: Non podes sighire prus de %{limit} persones
@@ -1021,7 +1032,7 @@ sc:
     seamless_external_login: As abertu sa sessione pro mèdiu de unu servìtziu esternu, e pro custa resone is cunfiguratziones de sa crae de intrada e de posta eletrònica non sunt a disponimentu.
     signed_in_as: 'Sessione aberta comente:'
   verification:
-    explanation_html: 'Ti podes <strong>verificare a sa sola comente mere de is ligòngios in is metadatos de su profilu tuo</strong>. Pro ddu fàghere su situ ligadu depet cuntènnere unu ligòngiu chi torret a su profilu de penpen tuo. Su ligòngiu in su situ <strong>depet</strong> tènnere un''atributu <code>rel="me"</code>. Su testu cuntenutu in su ligòngiu no est de importu. Custu est un''esèmpiu:'
+    explanation_html: 'Ti podes <strong>verificare a sa sola comente mere de is ligòngios in is metadatos de su profilu tuo</strong>. Pro ddu fàghere su situ ligadu depet cuntènnere unu ligòngiu chi torret a su profilu de Penpen tuo. Su ligòngiu in su situ <strong>depet</strong> tènnere un''atributu <code>rel="me"</code>. Su testu cuntenutu in su ligòngiu no est de importu. Custu est un''esèmpiu:'
     verification: Verìfica
   webauthn_credentials:
     add: Agiunghe una crae de seguresa noa

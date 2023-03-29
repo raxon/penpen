@@ -9,7 +9,7 @@ tt:
         title: Серсүзне алыштыру
       webauthn_credential:
         deleted:
-          subject: 'penpen: Иминлек ачкычы бетерелгән'
+          subject: 'Penpen: Иминлек ачкычы бетерелгән'
   errors:
     messages:
       not_found: табылмады

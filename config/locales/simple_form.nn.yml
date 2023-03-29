@@ -18,6 +18,8 @@ nn:
           disable: Hindre eigaren frå å bruke kontoen, men fjern eller skjul ikkje innhaldet deira.
           none: Bruk dette for å senda ei åtvaring til brukaren utan å utløyse andre handlingar.
           sensitive: Tving markering for sensitivt innhald på alle mediavedlegga til denne brukaren.
+          silence: Hindre brukaren frå å publisere offentlege innlegg og i å skjule eigne innlegg og varsel frå folk som ikkje fylgjer dei.
+          suspend: Hindre samhandling med– og slett innhaldet til denne kontoen. Kan omgjerast innan 30 dagar.
         warning_preset_id: Valfritt. Du kan leggja inn eigen tekst på enden av føreoppsettet
       announcement:
         all_day: Når merka, vil berre datoane til tidsramma synast
@@ -47,7 +49,7 @@ nn:
         phrase: Vil bli samsvart med, uansett bruk av store/små bokstaver eller innholdsadvarselen til en tut
         scopes: API-ane som programmet vil få tilgjenge til. Ettersom du vel eit toppnivåomfang tarv du ikkje velja einskilde API-ar.
         setting_aggregate_reblogs: Ikkje vis nye framhevingar for tut som nyleg har vorte heva fram (Påverkar berre nylege framhevingar)
-        setting_always_send_emails: Vanlegvis vil ikkje e-postvarsel bli sendt når du brukar penpen aktivt
+        setting_always_send_emails: Vanlegvis vil ikkje e-postvarsel bli sendt når du brukar Penpen aktivt
         setting_default_sensitive: Nærtakande media vert gøymd som standard og kan synast med eit klikk
         setting_display_media_default: Gøym media som er merka som nærtakande
         setting_display_media_hide_all: Alltid skjul alt media
@@ -76,13 +78,13 @@ nn:
         bootstrap_timeline_accounts: Desse kontoane vil bli festa øverst på fylgjaranbefalingane til nye brukarar.
         closed_registrations_message: Vist når det er stengt for registrering
         content_cache_retention_period: Innlegg frå andre tenarar vil bli sletta etter det angitte talet på dagar når det er sett til ein positiv verdi. Dette kan vera irreversibelt.
-        custom_css: Du kan bruka eigendefinerte stilar på nettversjonen av penpen.
+        custom_css: Du kan bruka eigendefinerte stilar på nettversjonen av Penpen.
         mascot: Overstyrer illustrasjonen i det avanserte webgrensesnittet.
         media_cache_retention_period: Mediafiler som har blitt lasta ned vil bli sletta etter det angitte talet på dagar når det er sett til ein positiv verdi, og lasta ned på nytt ved etterspørsel.
         profile_directory: Profilkatalogen viser alle brukarar som har valt å kunne bli oppdaga.
         require_invite_text: Når registrering krev manuell godkjenning, lyt du gjera tekstfeltet "Kvifor vil du bli med?" obligatorisk i staden for valfritt
         site_contact_email: Korleis kan ein få tak i deg når det gjeld juridiske spørsmål eller spørsmål om støtte.
-        site_contact_username: Korleis folk kan koma i kontakt med deg på penpen.
+        site_contact_username: Korleis folk kan koma i kontakt med deg på Penpen.
         site_extended_description: Tilleggsinformasjon som kan vera nyttig for besøkjande og brukarar. Kan strukturerast med Markdown-syntaks.
         site_short_description: Ein kort omtale for lettare å finne tenaren blant alle andre. Kven driftar han, kven er i målgruppa?
         site_terms: Bruk eigen personvernpolicy eller la stå tom for å bruka standard. Kan strukturerast med Markdown-syntaks.
@@ -95,7 +97,7 @@ nn:
       form_challenge:
         current_password: Du går inn i eit trygt område
       imports:
-        data: CSV-fil eksportert frå ein annan penpen-tenar
+        data: CSV-fil eksportert frå ein annan Penpen-tenar
       invite_request:
         text: Dette kjem til å hjelpa oss med å gå gjennom søknaden din
       ip_block:
